@@ -1,0 +1,442 @@
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe.config
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.pdb
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csprojAssemblyReference.cache
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Form1.resources
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Properties.Resources.resources
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.GenerateResource.cache
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.CoreCompileInputs.cache
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.exe
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.pdb
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\MySql.Data.dll
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\Google.Protobuf.dll
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\Renci.SshNet.dll
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\MySql.Data.xml
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.CopyComplete
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Detalle_Inventario.resources
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Data_Historial.resources
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Login.resources
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.CountView.resources
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Carga.resources
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Costo_Promedio.resources
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Hallazgos.resources
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Extraordinarios.resources
+C:\Users\hpalma\source\repos\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe.config
+C:\Users\hpalma\source\repos\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe
+C:\Users\hpalma\source\repos\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.pdb
+C:\Users\hpalma\source\repos\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\hpalma\source\repos\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\hpalma\source\repos\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\bin\Debug\MySql.Data.dll
+C:\Users\hpalma\source\repos\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\bin\Debug\Google.Protobuf.dll
+C:\Users\hpalma\source\repos\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\bin\Debug\Renci.SshNet.dll
+C:\Users\hpalma\source\repos\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\hpalma\source\repos\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\hpalma\source\repos\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\bin\Debug\MySql.Data.xml
+C:\Users\hpalma\source\repos\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csprojAssemblyReference.cache
+C:\Users\hpalma\source\repos\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Carga.resources
+C:\Users\hpalma\source\repos\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Costo_Promedio.resources
+C:\Users\hpalma\source\repos\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.CountView.resources
+C:\Users\hpalma\source\repos\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Data_Historial.resources
+C:\Users\hpalma\source\repos\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Detalle_Inventario.resources
+C:\Users\hpalma\source\repos\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Extraordinarios.resources
+C:\Users\hpalma\source\repos\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Form1.resources
+C:\Users\hpalma\source\repos\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Hallazgos.resources
+C:\Users\hpalma\source\repos\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Login.resources
+C:\Users\hpalma\source\repos\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Properties.Resources.resources
+C:\Users\hpalma\source\repos\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.GenerateResource.cache
+C:\Users\hpalma\source\repos\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.CoreCompileInputs.cache
+C:\Users\hpalma\source\repos\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.CopyComplete
+C:\Users\hpalma\source\repos\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.exe
+C:\Users\hpalma\source\repos\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.pdb
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe.config
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.pdb
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\bin\Debug\MySql.Data.dll
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\bin\Debug\Google.Protobuf.dll
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\bin\Debug\Renci.SshNet.dll
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\bin\Debug\MySql.Data.xml
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csprojAssemblyReference.cache
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Carga.resources
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Costo_Promedio.resources
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.CountView.resources
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Data_Historial.resources
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Detalle_Inventario.resources
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Extraordinarios.resources
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Form1.resources
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Hallazgos.resources
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Login.resources
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Properties.Resources.resources
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.GenerateResource.cache
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.CoreCompileInputs.cache
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.CopyComplete
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.exe
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.pdb
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Agregar_Inventario.resources
+C:\Users\hpalma\source\repos\DashBoard Sistemas\Dashboard_Inventarios Sin Procedimientos\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Aperturar_Inventario.resources
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Agregar_Inventario.resources
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Aperturar_Inventario.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe.config
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.pdb
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.Common.dll
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\MySql.Data.dll
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\Google.Protobuf.dll
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\Renci.SshNet.dll
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\BouncyCastle.Crypto.dll
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\MySql.Data.xml
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csprojAssemblyReference.cache
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Agregar_Inventario.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Aperturar_Inventario.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Carga.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Costo_Promedio.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.CountView.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Data_Historial.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Detalle_Inventario.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Extraordinarios.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Form1.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Hallazgos.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Login.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Properties.Resources.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.GenerateResource.cache
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.CoreCompileInputs.cache
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.CopyComplete
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.exe
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.pdb
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe.config
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.pdb
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\MySql.Data.dll
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\Google.Protobuf.dll
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\Renci.SshNet.dll
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\MySql.Data.xml
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csprojAssemblyReference.cache
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Agregar_Inventario.resources
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Aperturar_Inventario.resources
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Carga.resources
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Costo_Promedio.resources
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.CountView.resources
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Data_Historial.resources
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Detalle_Inventario.resources
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Extraordinarios.resources
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Form1.resources
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Hallazgos.resources
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Login.resources
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Properties.Resources.resources
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.GenerateResource.cache
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.CoreCompileInputs.cache
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.CopyComplete
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.exe
+C:\Users\hpalma\Documents\Jonathan\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.pdb
+C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.ObservacionesGerencia.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\JONATHAN\Dashboard_Inventarios\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.ObservacionesGerencia.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe.config
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.pdb
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.Common.dll
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\bin\Debug\MySql.Data.dll
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\bin\Debug\Google.Protobuf.dll
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\bin\Debug\Renci.SshNet.dll
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\bin\Debug\BouncyCastle.Crypto.dll
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\bin\Debug\MySql.Data.xml
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csprojAssemblyReference.cache
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Agregar_Inventario.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Aperturar_Inventario.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Carga.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Costo_Promedio.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.CountView.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Data_Historial.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Detalle_Inventario.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Extraordinarios.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Form1.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Hallazgos.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Login.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.ObservacionesGerencia.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Properties.Resources.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.GenerateResource.cache
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.CoreCompileInputs.cache
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.CopyComplete
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.exe
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.pdb
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe.config
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.pdb
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\bin\Debug\MySql.Data.dll
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\bin\Debug\Google.Protobuf.dll
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\bin\Debug\Renci.SshNet.dll
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\bin\Debug\MySql.Data.xml
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csprojAssemblyReference.cache
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Agregar_Inventario.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Aperturar_Inventario.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Carga.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Costo_Promedio.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.CountView.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Data_Historial.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Detalle_Inventario.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Extraordinarios.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Form1.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Hallazgos.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Login.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.ObservacionesGerencia.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Properties.Resources.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.GenerateResource.cache
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.CoreCompileInputs.cache
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.CopyComplete
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.exe
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.pdb
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Seleccionar_Bodega.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Seleccion.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.0\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.ver_selectivos.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe.config
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.pdb
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.Common.dll
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\MySql.Data.dll
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Google.Protobuf.dll
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Renci.SshNet.dll
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\BouncyCastle.Crypto.dll
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\MySql.Data.xml
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csprojAssemblyReference.cache
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Agregar_Inventario.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Aperturar_Inventario.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Carga.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Costo_Promedio.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.CountView.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Data_Historial.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Detalle_Inventario.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Extraordinarios.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Form1.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Hallazgos.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Login.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.ObservacionesGerencia.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Properties.Resources.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Seleccion.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Seleccionar_Bodega.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.ver_selectivos.resources
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.GenerateResource.cache
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.CoreCompileInputs.cache
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.CopyComplete
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.exe
+\\econsasap\INSTALADORES GENERALES\APP Inventario\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.pdb
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe.config
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.pdb
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\MySql.Data.dll
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Google.Protobuf.dll
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Renci.SshNet.dll
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\MySql.Data.xml
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Agregar_Inventario.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Aperturar_Inventario.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Carga.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Costo_Promedio.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.CountView.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Data_Historial.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Detalle_Inventario.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Extraordinarios.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Form1.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Hallazgos.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Login.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.ObservacionesGerencia.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Properties.Resources.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Seleccion.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Seleccionar_Bodega.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.ver_selectivos.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.GenerateResource.cache
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.CoreCompileInputs.cache
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.CopyComplete
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.exe
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.pdb
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe.config
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.pdb
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Google.Protobuf.dll
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\MySql.Data.xml
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.AssemblyReference.cache
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Agregar_Inventario.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Aperturar_Inventario.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Carga.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Costo_Promedio.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.CountView.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Data_Historial.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Detalle_Inventario.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Extraordinarios.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Form1.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Hallazgos.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Login.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.ObservacionesGerencia.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Properties.Resources.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Seleccion.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Seleccionar_Bodega.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.ver_selectivos.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.GenerateResource.cache
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.CoreCompileInputs.cache
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.CopyComplete
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.exe
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.pdb
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Interfaz.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.IP.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.InventariosLocales.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Administracion.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Categorias.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.MenuLocal.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Categoria.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Producto.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.DetalleProducto.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Bodega.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Bodegas.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Existencias.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Existencia.resources
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Zstandard.Net.dll
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\System.Memory.dll
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\System.Buffers.dll
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\harim\Desktop\sp2\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe.config
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.pdb
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\MySql.Data.dll
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Google.Protobuf.dll
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Zstandard.Net.dll
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Renci.SshNet.dll
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\System.Memory.dll
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\System.Buffers.dll
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\MySql.Data.xml
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.AssemblyReference.cache
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.exe.config
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Administracion.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Agregar_Inventario.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Aperturar_Inventario.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Bodega.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Bodegas.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Carga.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Categoria.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Categorias.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Costo_Promedio.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.CountView.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Data_Historial.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.DetalleProducto.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Detalle_Inventario.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Existencia.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Existencias.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Extraordinarios.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Form1.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Hallazgos.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Interfaz.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.InventariosLocales.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.IP.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Login.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.MenuLocal.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.ObservacionesGerencia.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Producto.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Properties.Resources.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Seleccion.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Seleccionar_Bodega.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.ver_selectivos.resources
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.GenerateResource.cache
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.CoreCompileInputs.cache
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.CopyComplete
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.exe
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.pdb
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Inventario_Local.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.AssemblyReference.cache
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Administracion.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Bodega.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Bodegas.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Categoria.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Categorias.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.DetalleProducto.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Existencia.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Existencias.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Interfaz.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.InventariosLocales.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Inventario_Local.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.IP.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.MenuLocal.resources
+C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Producto.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe.config
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.pdb
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\MySql.Data.dll
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Google.Protobuf.dll
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Renci.SshNet.dll
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\MySql.Data.xml
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.AssemblyReference.cache
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Administracion.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Agregar_Inventario.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Aperturar_Inventario.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Bodega.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Bodegas.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Carga.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Categoria.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Categorias.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Costo_Promedio.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.CountView.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Data_Historial.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.DetalleProducto.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Detalle_Inventario.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Existencia.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Existencias.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Extraordinarios.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Form1.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Hallazgos.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Interfaz.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.InventariosLocales.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Inventario_Local.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.IP.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Login.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.MenuLocal.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.ObservacionesGerencia.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Producto.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Properties.Resources.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Seleccion.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Seleccionar_Bodega.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.ver_selectivos.resources
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.GenerateResource.cache
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.CoreCompileInputs.cache
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.CopyComplete
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.exe
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.pdb
+C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Seleccionar_Rack.resources

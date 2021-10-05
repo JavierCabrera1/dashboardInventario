@@ -1,0 +1,2 @@
+CREATE PROCEDURE cmbEmpresa()
+SELECT * FROM empresa

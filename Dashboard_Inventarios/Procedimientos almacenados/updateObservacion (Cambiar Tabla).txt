@@ -1,0 +1,6 @@
+CREATE PROCEDURE (
+	_idInventario INT,
+	_observacion VARCHAR(255)
+)
+UPDATE inventario  // Cambiar Tabla a nueva etiqueta o inventario //
+SET ObservacionesGerencia = _observacion WHERE idInventario = _idInventario
