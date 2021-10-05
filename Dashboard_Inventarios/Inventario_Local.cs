@@ -22,21 +22,19 @@ namespace Dashboard_Inventarios
         DataTable TableInventario = new DataTable();
 
         //Array que llenan la cantidad de contados en UNHESA y PROQUIMA
+        ArrayList contadosUNHESA = new ArrayList();
         ArrayList contadosProquima = new ArrayList();
+        ArrayList contadosECONSA = new ArrayList();
         ArrayList contadoYnoContado = new ArrayList();
-        ArrayList conDiferencia = new ArrayList();
-        ArrayList sinDiferencia = new ArrayList();
-        ArrayList diferenciaPositiva = new ArrayList();
-        ArrayList diferenciaNegativa = new ArrayList();
 
         //Total, contados y no contados salen de las consultas a los procedimientos que hago, nocontados sale de la resta de las consultas U (Unhesa), P (proquima)
         int totalP;
         int contadosP;
         int nocontadosP;
-        int contadosConDiferencia;
-        int contadosSinDiferencia;
-        int contadosDiferenciaPositiva;
-        int contadosDiferenciaNegativa;
+
+        int totalU;
+        int contadosU;
+        int nocontadosU;
 
         public int idCategoria;
         public bool aperturar;
@@ -63,9 +61,9 @@ namespace Dashboard_Inventarios
             btnRefrescar_Click(sender, e);
             privilegios();
             llenarCombox();
+            cmbEmpresa.Text = "";
             cmbBodega.Text = "";
             cmbEstado.Text = "";
-            cmbRack.Text = "";
             casosCombo();
             if (btnFinalizar.Text == "Aperturar Inventario")
             {
@@ -121,9 +119,9 @@ namespace Dashboard_Inventarios
                 dgvInventario.Enabled = false;
                 dgvInventario.ColumnHeadersDefaultCellStyle.BackColor = Color.Gainsboro;
                 dgvInventario.DefaultCellStyle.BackColor = Color.Gainsboro;
+                cmbEmpresa.Enabled = false;
                 cmbBodega.Enabled = false;
                 cmbEstado.Enabled = false;
-                cmbRack.Enabled = false;
                 btnRefrescar.Enabled = false;
                 lbFecha.Enabled = false;
                 btnExcel.Enabled = false;
@@ -174,17 +172,13 @@ namespace Dashboard_Inventarios
                     dgvInventario.ColumnHeadersDefaultCellStyle.BackColor = Color.Gainsboro;
                     dgvInventario.DefaultCellStyle.BackColor = Color.Gainsboro;
                     txtBuscarId.Enabled = false;
+                    cmbEmpresa.Enabled = false;
                     cmbBodega.Enabled = false;
                     cmbEstado.Enabled = false;
-                    cmbRack.Enabled = false;
                     btnRefrescar.Enabled = false;
                     btnFinalizar.Enabled = false;
                     lbCountProquima.Enabled = false;
                     lbNoCountProquima.Enabled = false;
-                    lbCantidadCD.Enabled = false;
-                    lbCantidadDN.Enabled = false;
-                    lbCantidadDP.Enabled = false;
-                    lbCantidadSD.Enabled = false;
                 }
                 if (consultasMySQL.InventarioPausado(idInventario))
                 {
@@ -357,17 +351,9 @@ namespace Dashboard_Inventarios
             //Los array empiezan en blanco, ya que a la hora de refrescar se llenan con nuevos datos y hay que cambiarlos por los que tenían
             contadoYnoContado.Clear();
             contadosProquima.Clear();
-            conDiferencia.Clear();
-            sinDiferencia.Clear();
-            diferenciaNegativa.Clear();
-            diferenciaPositiva.Clear();
 
             //Cuento cuantos contados hay en Local y los asigno a la variable contadosP que será usado para el dashboard del proyecto
             contadosP = contarContados("test");
-            contadosConDiferencia = contarCDiferencia("test");
-            contadosSinDiferencia = contarSDiferencia("test");
-            contadosDiferenciaPositiva = contarDiferenciaPositiva("test");
-            contadosDiferenciaNegativa = contarDiferenciaNegativa("test");
 
             //igual para total
             totalP = contarTotal("test");
@@ -382,39 +368,21 @@ namespace Dashboard_Inventarios
             //Los Array Guardan los COUNT de contados y nocontados
             contadosProquima.Add(contadosP);
             contadosProquima.Add(nocontadosP);
-            conDiferencia.Add(contadosConDiferencia);
-            sinDiferencia.Add(contadosSinDiferencia);
-            diferenciaPositiva.Add(contadosDiferenciaPositiva);
-            diferenciaNegativa.Add(contadosDiferenciaNegativa);
 
             //El chart (DashBoard) manda los datos de los array para mostrarlos en gráfica
             chtProquima.Series[0].Points.DataBindXY(contadoYnoContado, contadosProquima);
-            chtDiferencias.Series[0].Points.AddXY("CD", contadosConDiferencia);
-            chtDiferencias.Series[0].Points.AddXY("SD", contadosSinDiferencia);
-            chtDiferencias.Series[0].Points.AddXY("DP", contadosDiferenciaPositiva);
-            chtDiferencias.Series[0].Points.AddXY("DN", contadosDiferenciaNegativa);
 
             if (totalP > 0)
             {
                 //Operación(Solo es una regla de tres) que saca el porcentaje de revisiones que lleva la base de datos (valores sacados del Back y no hay consultas)
                 lbProquima.Text = Convert.ToString(Convert.ToDecimal((Convert.ToInt32(contadosP) * 100) / Convert.ToInt32(totalP))) + "%";
-                lbPorcentajeSD.Text = Convert.ToString(Convert.ToDecimal((Convert.ToInt32(contadosSinDiferencia) * 100) / Convert.ToInt32(totalP))) + "%";
-                lbPorcentajeDP.Text = Convert.ToString(Convert.ToDecimal((Convert.ToInt32(contadosDiferenciaPositiva) * 100) / Convert.ToInt32(totalP))) + "%";
-                lbPorcentajeDN.Text = Convert.ToString(Convert.ToDecimal((Convert.ToInt32(contadosDiferenciaNegativa) * 100) / Convert.ToInt32(totalP))) + "%";
             }
             else
             {
                 lbProquima.Text = "0%";
-                lbPorcentajeSD.Text = "0%";
-                lbPorcentajeDP.Text = "0%";
-                lbPorcentajeDN.Text = "0%";
             }
             lbCountProquima.Text = ("Contados: " + contadosP);
             lbNoCountProquima.Text = ("No Contados: " + nocontadosP);
-            lbCantidadCD.Text = ("Con Diferencia: " + contadosConDiferencia);
-            lbCantidadSD.Text = ("Sin Diferencia: " + contadosSinDiferencia);
-            lbCantidadDP.Text = ("Diferencia Positiva: " + contadosDiferenciaPositiva);
-            lbCantidadDN.Text = ("Diferencia Negativa: " + contadosDiferenciaNegativa);
         }
         //-------------------------------------------------------------------------------- ----------------------------------------------------------------------------------//
         #endregion
@@ -437,12 +405,17 @@ namespace Dashboard_Inventarios
         }
         //-------------------------------------------------------------------------------- ----------------------------------------------------------------------------------//
         #endregion
-        #region Llena los ComboBox de Estado, Bodega y Rack
-        //----------------------------------------------------Llena los ComboBox de Estado y Bodega por medio de consultas--------------------------------------------------------------//
+        #region Llena los ComboBox de Empresa, Estado y Bodega
+        //----------------------------------------------------Llena los ComboBox de Empresa, Estado y Bodega por medio de consultas--------------------------------------------------------------//
 
         public void llenarCombox()
         {
             //Hago consultas para traer DataTables par llenar los ComboBox
+            DataTable empresa = consultasMySQL.llenarEmpresaLocal();
+            cmbEmpresa.DataSource = empresa;
+            cmbEmpresa.ValueMember = "idEmpresa";
+            cmbEmpresa.DisplayMember = "nombre";
+
             DataTable estado = consultasMySQL.llenarEstado();
             cmbEstado.DataSource = estado;
             cmbEstado.ValueMember = "idEstado";
@@ -452,11 +425,6 @@ namespace Dashboard_Inventarios
             cmbBodega.DataSource = bodega;
             cmbBodega.ValueMember = "idBodega";
             cmbBodega.DisplayMember = "nombre";
-
-            DataTable rack = consultasMySQL.llenarRackLocal();
-            cmbRack.DataSource = rack;
-            cmbRack.ValueMember = "idRack";
-            cmbRack.DisplayMember = "nombre";
 
         }
         //-------------------------------------------------------------------------------- ----------------------------------------------------------------------------------//
@@ -477,10 +445,6 @@ namespace Dashboard_Inventarios
         {
             casosCombo();
         }
-        private void cmbRack_TextChanged(object sender, EventArgs e)
-        {
-            casosCombo();
-        }
         private void txtBuscarId_TextChanged(object sender, EventArgs e)
         {
             casosCombo();
@@ -492,35 +456,35 @@ namespace Dashboard_Inventarios
         public void casosCombo()
         {
 
-            if (cmbBodega.Text != "" && cmbEstado.Text == "" && cmbRack.Text == "")
+            if (cmbEmpresa.Text != "" && cmbBodega.Text == "" && cmbEstado.Text == "")
+            {
+                switchComboBox("empresa");
+            }
+            if (cmbEmpresa.Text == "" && cmbBodega.Text != "" && cmbEstado.Text == "")
             {
                 switchComboBox("bodega");
             }
-            if (cmbBodega.Text == "" && cmbEstado.Text != "" && cmbRack.Text == "")
+            if (cmbEmpresa.Text == "" && cmbBodega.Text == "" && cmbEstado.Text != "")
             {
                 switchComboBox("estado");
             }
-            if (cmbBodega.Text == "" && cmbEstado.Text == "" && cmbRack.Text != "")
+            if (cmbEmpresa.Text != "" && cmbBodega.Text != "" && cmbEstado.Text == "")
             {
-                switchComboBox("rack");
+                switchComboBox("empresaBodega");
             }
-            if (cmbBodega.Text != "" && cmbEstado.Text != "" && cmbRack.Text == "")
+            if (cmbEmpresa.Text != "" && cmbBodega.Text == "" && cmbEstado.Text != "")
+            {
+                switchComboBox("empresaEstado");
+            }
+            if (cmbEmpresa.Text == "" && cmbBodega.Text != "" && cmbEstado.Text != "")
             {
                 switchComboBox("bodegaEstado");
             }
-            if (cmbBodega.Text != "" && cmbEstado.Text == "" && cmbRack.Text != "")
+            if (cmbEmpresa.Text != "" && cmbBodega.Text != "" && cmbEstado.Text != "")
             {
-                switchComboBox("bodegaRack");
+                switchComboBox("empresaBodegaEstado");
             }
-            if (cmbBodega.Text == "" && cmbEstado.Text != "" && cmbRack.Text != "")
-            {
-                switchComboBox("estadoRack");
-            }
-            if (cmbBodega.Text != "" && cmbEstado.Text != "" && cmbRack.Text != "")
-            {
-                switchComboBox("bodegaEstadoRack");
-            }
-            if (cmbBodega.Text == "" && cmbEstado.Text == "" && cmbRack.Text == "")
+            if (cmbEmpresa.Text == "" && cmbBodega.Text == "" && cmbEstado.Text == "")
             {
                 if (aperturar == false)
                 {
@@ -553,48 +517,66 @@ namespace Dashboard_Inventarios
         {
             switch (combinacion)
             {
+                case "empresa":
+                    {
+                        filtrar("Empresa", cmbEmpresa.Text, "", "", "", "", 1);
+                    }
+                    break;
                 case "bodega":
                     {
+                        try
                         {
-                            filtrar("Codigo Bodega", cmbBodega.SelectedValue.ToString(), "", "", "", "", 1, "bodega");
+                            filtrar("Codigo Bodega", cmbBodega.SelectedValue.ToString(), "", "", "", "", 1);
+                        }
+                        catch
+                        {
+                            filtrar("Codigo Bodega", cmbBodega.Text, "", "", "", "", 1);
                         }
                     }
                     break;
                 case "estado":
                     {
-                        filtrar("Estado", cmbEstado.Text, "", "", "", "", 1, "estado");
+                        filtrar("Estado", cmbEstado.Text, "", "", "", "", 1);
                     }
                     break;
-                case "rack":
+                case "empresaBodega":
                     {
-                        filtrar("Codigo Bodega", cmbRack.SelectedValue.ToString(), "", "", "", "", 1, "rack");
+                        try
+                        {
+                            filtrar("Empresa", cmbEmpresa.Text, "Codigo Bodega", cmbBodega.SelectedValue.ToString(), "", "", 2);
+                        }
+                        catch
+                        {
+                            filtrar("Empresa", cmbEmpresa.Text, "Codigo Bodega", cmbBodega.Text, "", "", 2);
+                        }
+                    }
+                    break;
+                case "empresaEstado":
+                    {
+                        filtrar("Empresa", cmbEmpresa.Text, "Estado", cmbEstado.Text, "", "", 2);
                     }
                     break;
                 case "bodegaEstado":
                     {
+                        try
                         {
-                            filtrar("Codigo Bodega", cmbBodega.SelectedValue.ToString(), "Estado", cmbEstado.Text, "", "", 2, "bodegaEstado");
+                            filtrar("Codigo Bodega", cmbBodega.SelectedValue.ToString(), "Estado", cmbEstado.Text, "", "", 2);
+                        }
+                        catch
+                        {
+                            filtrar("Codigo Bodega", cmbBodega.Text, "Estado", cmbEstado.Text, "", "", 2);
                         }
                     }
                     break;
-                case "bodegaRack":
+                case "empresaBodegaEstado":
                     {
+                        try
                         {
-                            filtrar("Codigo Bodega", cmbBodega.SelectedValue.ToString(), "Codigo Bodega", cmbRack.SelectedValue.ToString(), "", "", 2, "bodegaRack");
+                            filtrar("Empresa", cmbEmpresa.Text, "Codigo Bodega", cmbBodega.SelectedValue.ToString(), "Estado", cmbEstado.Text, 3);
                         }
-                    }
-                    break;
-                case "estadoRack":
-                    {
+                        catch
                         {
-                            filtrar("Estado", cmbEstado.Text, "Codigo Bodega", cmbRack.SelectedValue.ToString(), "", "", 2, "estadoRack");
-                        }
-                    }
-                    break;
-                case "bodegaEstadoRack":
-                    {
-                        {
-                            filtrar("Codigo Bodega", cmbBodega.SelectedValue.ToString(), "Estado", cmbEstado.Text, "Codigo Bodega", cmbRack.SelectedValue.ToString(), 3, "bodegaEstadoRack");
+                            filtrar("Empresa", cmbEmpresa.Text, "Codigo Bodega", cmbBodega.Text, "Estado", cmbEstado.Text, 3);
                         }
                     }
                     break;
@@ -652,7 +634,7 @@ namespace Dashboard_Inventarios
         #endregion
         #region Método de filtrar
         //------------------------------------------------------------------------Filtra según sea el caso de 2^3---------------------------------------------------------//
-        public void filtrar(string columna, string valor, string columna2, string valor2, string columna3, string valor3, int valores, string tipoBusqueda)
+        public void filtrar(string columna, string valor, string columna2, string valor2, string columna3, string valor3, int valores)
         {
             DataTable filtro = new DataTable();
 
@@ -660,75 +642,30 @@ namespace Dashboard_Inventarios
 
             foreach (DataRow row in TableInventario.Rows)
             {
-
-                string[] listaCodigoBodega = row["Codigo Bodega"].ToString().Split('-');
-                string idBodega = listaCodigoBodega[0];
-                string idRack = listaCodigoBodega[1];
-                #region 1 Valor
                 //si es un solo campo que se filtra
                 if (valores == 1)
                 {
-                    if (tipoBusqueda == "bodega")
-                    {
-                        if (idBodega == valor)
-                        {
-                            asignarDatos(filtro, row);
-                        }
-                    } else if (tipoBusqueda == "rack")
-                    {
-                        if (idRack == valor)
-                        {
-                            asignarDatos(filtro, row);
-                        }
-                    } else
-                    {
-                        if (row[columna].ToString() == valor)
-                        {
-                            asignarDatos(filtro, row);
-                        }
-                    }
-                }
-                #endregion
-                #region 2 Valores
-                //si son 2
-                if (valores == 2)
-                {
-                    if (tipoBusqueda == "bodegaEstado") {
-                        if (idBodega == valor && row[columna2].ToString() == valor2)
-                        {
-                            asignarDatos(filtro, row);
-                        }
-                    } else if(tipoBusqueda == "bodegaRack")
-                    {
-                        if (idBodega == valor && idRack == valor2)
-                        {
-                            asignarDatos(filtro, row);
-                        }
-                    } else if(tipoBusqueda == "estadoRack")
-                    {
-                        if (row[columna].ToString() == valor && idRack == valor2)
-                        {
-                            asignarDatos(filtro, row);
-                        }
-                    } else
-                    {
-                        if (row[columna].ToString() == valor && row[columna2].ToString() == valor2)
-                        {
-                            asignarDatos(filtro, row);
-                        }
-                    }
-                }
-                #endregion
-                #region 3 Valores
-                //si son 3
-                if (valores == 3)
-                {
-                    if (idBodega == valor && row[columna2].ToString() == valor2 && idRack == valor3)
+                    if (row[columna].ToString() == valor)
                     {
                         asignarDatos(filtro, row);
                     }
                 }
-                #endregion
+                //si son 2
+                if (valores == 2)
+                {
+                    if (row[columna].ToString() == valor && row[columna2].ToString() == valor2)
+                    {
+                        asignarDatos(filtro, row);
+                    }
+                }
+                //si son 3
+                if (valores == 3)
+                {
+                    if (row[columna].ToString() == valor && row[columna2].ToString() == valor2 && row[columna3].ToString() == valor3)
+                    {
+                        asignarDatos(filtro, row);
+                    }
+                }
             }
             if (aperturar == false)
             {
@@ -759,140 +696,6 @@ namespace Dashboard_Inventarios
                     {
                         //Cuando termine de filtrar asignara todas las filas filtradas a count
                         asignarDatos(count, row);
-                    }
-                }
-            }
-            //al finalizar este proceso contara todas las filas que tiene count y las retornará
-            return count.Rows.Count;
-        }
-        //------------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------//
-        #endregion
-        #region Método que cuenta los productos con diferencia
-        //--------------------------------------------------------------------------------Método que cuenta cuantos Inventarios tienen el estado "Contado, según su empresa" ----------------------------------------------------------------------------------//
-        public int contarCDiferencia(string empresa)
-        {
-            //DataTable count va a ser la tabla que contenga el filtrado por empresa
-            DataTable count = new DataTable();
-
-            //asigno a count todas las columnas que lleva TableInventario
-            count = nuevaTabla();
-
-            //DataRow 'row' contendra todas las filas que tenga TableInventario
-            foreach (DataRow row in TableInventario.Rows)
-            {
-                //Va a filtrar todas las filas que contengan en el campo "Empresa" el valor de la variable 'empresa'
-                if (row["Empresa"].ToString() == empresa)
-                {
-                    //Vuelve a filtrar para obtener solo las filas que ya esten contadas de la empresa ingresada
-                    if (row["Cantidad Diferencia"].ToString() != "")
-                    {
-                        decimal diferencia = Decimal.Parse(row["Cantidad Diferencia"].ToString());
-                        //Vuelve a filtrar para obtener solo las filas que ya esten contadas de la empresa ingresada
-                        if (diferencia != 0)
-                        {
-                            //Cuando termine de filtrar asignara todas las filas filtradas a count
-                            asignarDatos(count, row);
-                        }
-                    }
-                }
-            }
-            //al finalizar este proceso contara todas las filas que tiene count y las retornará
-            return count.Rows.Count;
-        }
-        //------------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------//
-        #endregion
-        #region Método que cuenta los productos sin diferencia
-        //--------------------------------------------------------------------------------Método que cuenta cuantos Inventarios tienen el estado "Contado, según su empresa" ----------------------------------------------------------------------------------//
-        public int contarSDiferencia(string empresa)
-        {
-            //DataTable count va a ser la tabla que contenga el filtrado por empresa
-            DataTable count = new DataTable();
-
-            //asigno a count todas las columnas que lleva TableInventario
-            count = nuevaTabla();
-
-            //DataRow 'row' contendra todas las filas que tenga TableInventario
-            foreach (DataRow row in TableInventario.Rows)
-            {
-                //Va a filtrar todas las filas que contengan en el campo "Empresa" el valor de la variable 'empresa'
-                if (row["Empresa"].ToString() == empresa)
-                {
-                    //Vuelve a filtrar para obtener solo las filas que ya esten contadas de la empresa ingresada
-                    if (row["Cantidad Diferencia"].ToString() != "")
-                    {
-                        decimal diferencia = Decimal.Parse(row["Cantidad Diferencia"].ToString());
-                        //Vuelve a filtrar para obtener solo las filas que ya esten contadas de la empresa ingresada
-                        if (diferencia == 0)
-                        {
-                            //Cuando termine de filtrar asignara todas las filas filtradas a count
-                            asignarDatos(count, row);
-                        }
-                    }
-                }
-            }
-            //al finalizar este proceso contara todas las filas que tiene count y las retornará
-            return count.Rows.Count;
-        }
-        //------------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------//
-        #endregion
-        #region Método que cuenta los productos con diferencia positiva
-        //--------------------------------------------------------------------------------Método que cuenta cuantos Inventarios tienen el estado "Contado, según su empresa" ----------------------------------------------------------------------------------//
-        public int contarDiferenciaPositiva(string empresa)
-        {
-            //DataTable count va a ser la tabla que contenga el filtrado por empresa
-            DataTable count = new DataTable();
-
-            //asigno a count todas las columnas que lleva TableInventario
-            count = nuevaTabla();
-
-            //DataRow 'row' contendra todas las filas que tenga TableInventario
-            foreach (DataRow row in TableInventario.Rows)
-            {
-                //Va a filtrar todas las filas que contengan en el campo "Empresa" el valor de la variable 'empresa'
-                if (row["Empresa"].ToString() == empresa)
-                {
-                    if(row["Cantidad Diferencia"].ToString() != "")
-                    {
-                        decimal diferencia = Decimal.Parse(row["Cantidad Diferencia"].ToString());
-                        //Vuelve a filtrar para obtener solo las filas que ya esten contadas de la empresa ingresada
-                        if (diferencia > 0)
-                        {
-                            //Cuando termine de filtrar asignara todas las filas filtradas a count
-                            asignarDatos(count, row);
-                        }
-                    }
-                }
-            }
-            //al finalizar este proceso contara todas las filas que tiene count y las retornará
-            return count.Rows.Count;
-        }
-        //------------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------//
-        #endregion
-        #region Método que cuenta los productos con diferencia negativa
-        //--------------------------------------------------------------------------------Método que cuenta cuantos Inventarios tienen el estado "Contado, según su empresa" ----------------------------------------------------------------------------------//
-        public int contarDiferenciaNegativa(string empresa)
-        {
-            //DataTable count va a ser la tabla que contenga el filtrado por empresa
-            DataTable count = new DataTable();
-
-            //asigno a count todas las columnas que lleva TableInventario
-            count = nuevaTabla();
-
-            //DataRow 'row' contendra todas las filas que tenga TableInventario
-            foreach (DataRow row in TableInventario.Rows)
-            {
-                //Va a filtrar todas las filas que contengan en el campo "Empresa" el valor de la variable 'empresa'
-                if (row["Empresa"].ToString() == empresa)
-                {
-                    if (row["Cantidad Diferencia"].ToString() != "")
-                    {
-                        decimal diferencia = Decimal.Parse(row["Cantidad Diferencia"].ToString());
-                        //Vuelve a filtrar para obtener solo las filas que ya esten contadas de la empresa ingresada
-                        if (diferencia < 0)
-                        {
-                            //Cuando termine de filtrar asignara todas las filas filtradas a count
-                            asignarDatos(count, row);
-                        }
                     }
                 }
             }

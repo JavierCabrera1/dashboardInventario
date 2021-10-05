@@ -70,12 +70,6 @@
     <Compile Include="Agregar_Inventario.Designer.cs">
       <DependentUpon>Agregar_Inventario.cs</DependentUpon>
     </Compile>
-    <Compile Include="Agregar_Rack.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Agregar_Rack.Designer.cs">
-      <DependentUpon>Agregar_Rack.cs</DependentUpon>
-    </Compile>
     <Compile Include="Aperturar_Inventario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -223,12 +217,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Racks.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Racks.Designer.cs">
-      <DependentUpon>Racks.cs</DependentUpon>
-    </Compile>
     <Compile Include="Seleccion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -241,6 +229,12 @@
     <Compile Include="Seleccionar_Bodega.Designer.cs">
       <DependentUpon>Seleccionar_Bodega.cs</DependentUpon>
     </Compile>
+    <Compile Include="Seleccionar_Rack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seleccionar_Rack.Designer.cs">
+      <DependentUpon>Seleccionar_Rack.cs</DependentUpon>
+    </Compile>
     <Compile Include="ver_selectivos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -252,9 +246,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Agregar_Inventario.resx">
       <DependentUpon>Agregar_Inventario.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Agregar_Rack.resx">
-      <DependentUpon>Agregar_Rack.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Aperturar_Inventario.resx">
       <DependentUpon>Aperturar_Inventario.cs</DependentUpon>
@@ -338,14 +329,14 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Racks.resx">
-      <DependentUpon>Racks.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Seleccion.resx">
       <DependentUpon>Seleccion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Seleccionar_Bodega.resx">
       <DependentUpon>Seleccionar_Bodega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seleccionar_Rack.resx">
+      <DependentUpon>Seleccionar_Rack.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ver_selectivos.resx">
       <DependentUpon>ver_selectivos.cs</DependentUpon>
@@ -403,7 +394,6 @@
     <Content Include="analysis.ico" />
     <Content Include="analytics.ico.ico" />
     <Content Include="package.ico" />
-    <Content Include="Resources\store.png" />
     <Content Include="Resource\embalaje.png" />
     <None Include="Resources\almacen.png" />
     <None Include="Resources\inventario2.png" />

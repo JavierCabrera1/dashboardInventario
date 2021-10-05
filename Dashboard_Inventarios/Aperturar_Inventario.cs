@@ -100,6 +100,8 @@ namespace Dashboard_Inventarios
             {
                 MessageBox.Show("Seleccione un elemento del Listado", "Opción incorrecta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
+            else if(inventario_local == false) 
+            {
                 foreach (Form frm in Application.OpenForms)
                 {
                     if (frm.GetType() == typeof(Form1))
@@ -126,6 +128,25 @@ namespace Dashboard_Inventarios
                 }
                 form1.Show();
                 Hide();
+            } else
+            {
+                foreach (Form frm in Application.OpenForms)
+                {
+                    if (frm.GetType() == typeof(Inventario_Local))
+                    {
+                        frm.Hide();
+                    }
+                }
+                Inventario_Local inventario_Local = new Inventario_Local();
+                inventario_Local.user = nombre_usuario;
+                inventario_Local.aperturar = true;
+                inventario_Local.empresaApertura = cmbEmpresa.Text;
+                inventario_Local.idInventario = "";
+                inventario_Local.idCategoria = idCategoria;
+                inventario_Local.nombre_del_inventario = txtInventario.Text;
+                inventario_Local.Show();
+                Hide();
+            }
         }
         #endregion
         #region aperturar todas las empresas
@@ -275,6 +296,17 @@ namespace Dashboard_Inventarios
                     {
                         btnLocal.Visible = true;
                         btnLocal.Location = new Point(328, 114);
+
+                        if (idCategoria == 4)
+                        {
+                            Seleccionar_Bodega seleccionar = new Seleccionar_Bodega();
+                            seleccionar.inventario = txtInventario.Text;
+                            seleccionar.nombre_usuario = nombre_usuario;
+                            seleccionar.ip = ip;
+                            seleccionar.inventario_local = inventario_local;
+                            seleccionar.Show();
+                            Close();
+                        }
                     }
                     else if (cmbCategoria.SelectedIndex == 0)
                     {
@@ -287,14 +319,17 @@ namespace Dashboard_Inventarios
                         btnMas.Visible = true;
                         btnMas.Location = new Point(328, 114);
                     }
-                    if (idCategoria == 4)
-                    {
-                        Seleccionar_Bodega seleccionar = new Seleccionar_Bodega();
-                        seleccionar.inventario = txtInventario.Text;
-                        seleccionar.nombre_usuario = nombre_usuario;
-                        seleccionar.ip = ip;
-                        seleccionar.Show();
-                        Close();
+                    if (inventario_local != true)
+                    {   
+                        if (idCategoria == 4)
+                        {
+                            Seleccionar_Bodega seleccionar = new Seleccionar_Bodega();
+                            seleccionar.inventario = txtInventario.Text;
+                            seleccionar.nombre_usuario = nombre_usuario;
+                            seleccionar.ip = ip;
+                            seleccionar.Show();
+                            Close();
+                        }
                     }
                     btnInventario.Visible = false;
                     txtInventario.Visible = false;
@@ -316,7 +351,8 @@ namespace Dashboard_Inventarios
                 cmbBodega.DataSource = bodegaLocal;
                 cmbBodega.DisplayMember = "nombre";
                 cmbBodega.ValueMember = "idBodega";
-            } else
+            } 
+            else
             {
             cmbBodega.DataSource = new BindingSource(bodega, null);
             cmbBodega.DisplayMember = "Value";
@@ -352,22 +388,9 @@ namespace Dashboard_Inventarios
         #region Click Boton Inventario Local
         private void btnLocal_Click(object sender, EventArgs e)
         {
-            foreach (Form frm in Application.OpenForms)
-            {
-                if (frm.GetType() == typeof(Inventario_Local))
-                {
-                    frm.Hide();
-                }
-            }
-            Inventario_Local inventario_Local = new Inventario_Local();
-            inventario_Local.user = nombre_usuario;
-            inventario_Local.aperturar = true;
-            inventario_Local.empresaApertura = "test";
-            inventario_Local.idInventario = "";
-            inventario_Local.idCategoria = idCategoria;
-            inventario_Local.nombre_del_inventario = txtInventario.Text;
-            inventario_Local.Show();
-            Close();
+            cmbEmpresa.Visible = true;
+            label10.Visible = true;
+            btnAperturar.Visible = true;
         }
         #endregion
     }

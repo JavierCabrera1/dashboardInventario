@@ -54,8 +54,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(424, 0);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(283, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(253, 32);
             this.label1.TabIndex = 11;
@@ -68,10 +67,9 @@
             this.btnMas.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnMas.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMas.Image = global::Dashboard_Inventarios.Properties.Resources.Econsa__3_;
-            this.btnMas.Location = new System.Drawing.Point(507, 175);
-            this.btnMas.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnMas.Location = new System.Drawing.Point(338, 114);
             this.btnMas.Name = "btnMas";
-            this.btnMas.Size = new System.Drawing.Size(220, 251);
+            this.btnMas.Size = new System.Drawing.Size(147, 163);
             this.btnMas.TabIndex = 14;
             this.btnMas.Text = "Aperturar todas las empresas";
             this.btnMas.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -86,10 +84,9 @@
             this.btnUna.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnUna.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUna.Image = global::Dashboard_Inventarios.Properties.Resources.unhesa__1_;
-            this.btnUna.Location = new System.Drawing.Point(279, 175);
-            this.btnUna.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnUna.Location = new System.Drawing.Point(186, 114);
             this.btnUna.Name = "btnUna";
-            this.btnUna.Size = new System.Drawing.Size(220, 251);
+            this.btnUna.Size = new System.Drawing.Size(147, 163);
             this.btnUna.TabIndex = 13;
             this.btnUna.Text = "Aperturar una Empresa";
             this.btnUna.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -104,10 +101,9 @@
             this.cmbEmpresa.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.cmbEmpresa.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbEmpresa.FormattingEnabled = true;
-            this.cmbEmpresa.Location = new System.Drawing.Point(324, 482);
-            this.cmbEmpresa.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cmbEmpresa.Location = new System.Drawing.Point(216, 313);
             this.cmbEmpresa.Name = "cmbEmpresa";
-            this.cmbEmpresa.Size = new System.Drawing.Size(540, 23);
+            this.cmbEmpresa.Size = new System.Drawing.Size(361, 23);
             this.cmbEmpresa.TabIndex = 28;
             this.cmbEmpresa.Visible = false;
             // 
@@ -116,8 +112,7 @@
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(345, 445);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(230, 289);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(335, 21);
             this.label10.TabIndex = 29;
@@ -134,10 +129,9 @@
             this.btnAperturar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAperturar.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAperturar.ForeColor = System.Drawing.Color.Black;
-            this.btnAperturar.Location = new System.Drawing.Point(514, 526);
-            this.btnAperturar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnAperturar.Location = new System.Drawing.Point(343, 342);
             this.btnAperturar.Name = "btnAperturar";
-            this.btnAperturar.Size = new System.Drawing.Size(159, 49);
+            this.btnAperturar.Size = new System.Drawing.Size(106, 32);
             this.btnAperturar.TabIndex = 30;
             this.btnAperturar.Text = "Aperturar";
             this.btnAperturar.UseVisualStyleBackColor = false;
@@ -154,10 +148,9 @@
             this.btnCategoria.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCategoria.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCategoria.ForeColor = System.Drawing.Color.Black;
-            this.btnCategoria.Location = new System.Drawing.Point(514, 322);
-            this.btnCategoria.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnCategoria.Location = new System.Drawing.Point(343, 209);
             this.btnCategoria.Name = "btnCategoria";
-            this.btnCategoria.Size = new System.Drawing.Size(159, 49);
+            this.btnCategoria.Size = new System.Drawing.Size(106, 32);
             this.btnCategoria.TabIndex = 33;
             this.btnCategoria.Text = "Seleccionar";
             this.btnCategoria.UseVisualStyleBackColor = false;
@@ -168,8 +161,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(345, 240);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(230, 156);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(342, 21);
             this.label2.TabIndex = 32;
@@ -181,10 +173,9 @@
             this.cmbCategoria.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.cmbCategoria.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbCategoria.FormattingEnabled = true;
-            this.cmbCategoria.Location = new System.Drawing.Point(324, 277);
-            this.cmbCategoria.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cmbCategoria.Location = new System.Drawing.Point(216, 180);
             this.cmbCategoria.Name = "cmbCategoria";
-            this.cmbCategoria.Size = new System.Drawing.Size(540, 23);
+            this.cmbCategoria.Size = new System.Drawing.Size(361, 23);
             this.cmbCategoria.TabIndex = 31;
             // 
             // btnAtras
@@ -194,10 +185,9 @@
             this.btnAtras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnAtras.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAtras.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAtras.Location = new System.Drawing.Point(3, 3);
-            this.btnAtras.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnAtras.Location = new System.Drawing.Point(2, 2);
             this.btnAtras.Name = "btnAtras";
-            this.btnAtras.Size = new System.Drawing.Size(51, 49);
+            this.btnAtras.Size = new System.Drawing.Size(34, 32);
             this.btnAtras.TabIndex = 34;
             this.btnAtras.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAtras.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -207,10 +197,9 @@
             // txtInventario
             // 
             this.txtInventario.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtInventario.Location = new System.Drawing.Point(324, 277);
-            this.txtInventario.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtInventario.Location = new System.Drawing.Point(216, 180);
             this.txtInventario.Name = "txtInventario";
-            this.txtInventario.Size = new System.Drawing.Size(540, 25);
+            this.txtInventario.Size = new System.Drawing.Size(361, 25);
             this.txtInventario.TabIndex = 35;
             this.txtInventario.Visible = false;
             // 
@@ -219,8 +208,7 @@
             this.lbInventario.AutoSize = true;
             this.lbInventario.BackColor = System.Drawing.Color.Transparent;
             this.lbInventario.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbInventario.Location = new System.Drawing.Point(366, 240);
-            this.lbInventario.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbInventario.Location = new System.Drawing.Point(244, 156);
             this.lbInventario.Name = "lbInventario";
             this.lbInventario.Size = new System.Drawing.Size(309, 21);
             this.lbInventario.TabIndex = 36;
@@ -237,10 +225,9 @@
             this.btnInventario.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnInventario.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInventario.ForeColor = System.Drawing.Color.Black;
-            this.btnInventario.Location = new System.Drawing.Point(514, 322);
-            this.btnInventario.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnInventario.Location = new System.Drawing.Point(343, 209);
             this.btnInventario.Name = "btnInventario";
-            this.btnInventario.Size = new System.Drawing.Size(159, 49);
+            this.btnInventario.Size = new System.Drawing.Size(106, 32);
             this.btnInventario.TabIndex = 37;
             this.btnInventario.Text = "Seleccionar";
             this.btnInventario.UseVisualStyleBackColor = false;
@@ -257,10 +244,9 @@
             this.btnBodega.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnBodega.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBodega.ForeColor = System.Drawing.Color.Black;
-            this.btnBodega.Location = new System.Drawing.Point(514, 322);
-            this.btnBodega.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnBodega.Location = new System.Drawing.Point(343, 209);
             this.btnBodega.Name = "btnBodega";
-            this.btnBodega.Size = new System.Drawing.Size(159, 49);
+            this.btnBodega.Size = new System.Drawing.Size(106, 32);
             this.btnBodega.TabIndex = 40;
             this.btnBodega.Text = "Seleccionar";
             this.btnBodega.UseVisualStyleBackColor = false;
@@ -272,8 +258,7 @@
             this.lbBodega.AutoSize = true;
             this.lbBodega.BackColor = System.Drawing.Color.Transparent;
             this.lbBodega.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbBodega.Location = new System.Drawing.Point(345, 240);
-            this.lbBodega.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbBodega.Location = new System.Drawing.Point(230, 156);
             this.lbBodega.Name = "lbBodega";
             this.lbBodega.Size = new System.Drawing.Size(328, 21);
             this.lbBodega.TabIndex = 39;
@@ -286,10 +271,9 @@
             this.cmbBodega.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.cmbBodega.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbBodega.FormattingEnabled = true;
-            this.cmbBodega.Location = new System.Drawing.Point(324, 278);
-            this.cmbBodega.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cmbBodega.Location = new System.Drawing.Point(216, 181);
             this.cmbBodega.Name = "cmbBodega";
-            this.cmbBodega.Size = new System.Drawing.Size(540, 23);
+            this.cmbBodega.Size = new System.Drawing.Size(361, 23);
             this.cmbBodega.TabIndex = 38;
             this.cmbBodega.Visible = false;
             // 
@@ -299,10 +283,9 @@
             this.btnLocal.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnLocal.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLocal.Image = global::Dashboard_Inventarios.Properties.Resources.embalaje;
-            this.btnLocal.Location = new System.Drawing.Point(735, 175);
-            this.btnLocal.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnLocal.Location = new System.Drawing.Point(490, 114);
             this.btnLocal.Name = "btnLocal";
-            this.btnLocal.Size = new System.Drawing.Size(220, 251);
+            this.btnLocal.Size = new System.Drawing.Size(147, 163);
             this.btnLocal.TabIndex = 41;
             this.btnLocal.Text = "Vista previa inventario";
             this.btnLocal.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -313,12 +296,12 @@
             // 
             // Aperturar_Inventario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::Dashboard_Inventarios.Properties.Resources.FONDO_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnBodega);
             this.Controls.Add(this.lbBodega);
             this.Controls.Add(this.cmbBodega);
@@ -338,10 +321,9 @@
             this.Controls.Add(this.btnLocal);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(1216, 731);
-            this.MinimumSize = new System.Drawing.Size(1216, 731);
+            this.MaximumSize = new System.Drawing.Size(816, 489);
+            this.MinimumSize = new System.Drawing.Size(816, 486);
             this.Name = "Aperturar_Inventario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Aperturar Inventario";

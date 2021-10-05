@@ -11,7 +11,7 @@ namespace Dashboard_Inventarios
     class ConsultasMySQL
     {
         //conexión a la base de datos phpMyAdmin
-        public string connectionString = @"Server=192.168.0.7;Database=dbinventarios;Uid=admin;Pwd=;port=3306;SslMode=none";
+        public string connectionString = @"Server=192.168.0.83;Database=dbinventarios;Uid=admin;Pwd=;port=3306;SslMode=none";
         private SqlConnection conexion = new SqlConnection("data source = 192.168.0.7; initial catalog = master; user id = sa; password = grueconsa");
 
         #region Varibales Globales
@@ -25,7 +25,6 @@ namespace Dashboard_Inventarios
         string Tabla_Hallazgos = "hallazgos";
         string Tabla_Categoria = "categoria";
         string Tabla_Bodega = "bodega";
-        string Tabla_Rack = "rack";
 
         //-----------------------------------------------------------------//
 
@@ -344,7 +343,7 @@ namespace Dashboard_Inventarios
             {
                 mysqlCon.Open();
 
-                MySqlDataAdapter mySqlCmd = new MySqlDataAdapter(string.Format("SELECT ROW_NUMBER() over (order by (select NULL)) as 'ID', p.descripcion AS 'Descripción', e.idProducto AS 'Codigo Producto', concat(b.idBodega, '-', rk.idRack)  AS 'Codigo Bodega', concat(b.nombre, '-', rk.nombre) AS 'Nombre Bodega', p.unidadDeMedida AS 'Unidad de Medida', e.existencia AS 'Existencias', p.valorUnitario AS 'Costo Promedio', null AS 'Conteo Fisico', null AS 'Cantidad Diferencia', null AS 'Costo Diferencia', 'test' as 'Empresa', null AS 'Usuario', 1 AS 'Estado', null AS 'Fecha Actualización', null as 'Costo Diferencia Absoluto', null AS 'Observaciones Contador', null AS 'Observaciones Gerencia', r.descripcion AS 'Riesgo' FROM Existencia e INNER JOIN Producto p ON e.idProducto = p.idProducto INNER JOIN Rack rk ON e.idRack = rk.idRack INNER JOIN Riesgo r ON r.idRiesgo = p.idRiesgo INNER JOIN Bodega b ON rk.idBodega = b.idBodega"), mysqlCon);
+                MySqlDataAdapter mySqlCmd = new MySqlDataAdapter(string.Format("SELECT ROW_NUMBER() over (order by (select NULL)) as 'ID', p.descripcion AS 'Descripción', e.idProducto AS 'Codigo Producto', e.idBodega AS 'Codigo Bodega', b.nombre AS 'Nombre Bodega', p.unidadDeMedida AS 'Unidad de Medida', e.existencia AS 'Existencias', p.valorUnitario AS 'Costo Promedio', null AS 'Conteo Fisico', null AS 'Cantidad Diferencia', null AS 'Costo Diferencia', 'test' as 'Empresa', null AS 'Usuario', 1 AS 'Estado', null AS 'Fecha Actualización', null as 'Costo Diferencia Absoluto', null AS 'Observaciones Contador', null AS 'Observaciones Gerencia', r.descripcion AS 'Riesgo' FROM Existencia e INNER JOIN Producto p ON e.idProducto = p.idProducto INNER JOIN Bodega b ON e.idBodega = b.idBodega INNER JOIN Riesgo r ON r.idRiesgo = p.idRiesgo"), mysqlCon);
                 DataTable TableInventario = new DataTable();
                 mySqlCmd.Fill(TableInventario);
                 return TableInventario;
@@ -381,7 +380,7 @@ namespace Dashboard_Inventarios
             using (MySqlConnection mysqlCon = new MySqlConnection(connectionString))
             {
                 mysqlCon.Open();
-                MySqlDataAdapter mySqlCmd = new MySqlDataAdapter(string.Format("INSERT INTO `conteos`(`DescripcionSAP`, `CodigoSAP`, `UnidadDeMedida`, `CodigoBodega`, `NombreBodega`, `ExistenciaSAP`, `CostoPromedio`, `ConteoFisico`, `CantidadDiferencia`, `CostoDiferencia`, `CostoDiferenciaAbsoluto`, `idEmpresa`, `idUsuario`, `idEstado`, `idInventario`, `FechaActualizacion`, `ObservacionesGerencia`, `ObservacionesContador`, `Riesgo`) Select p.descripcion, e.idProducto, p.unidadDeMedida, concat(b.idBodega, '-', rk.idRack), concat(b.nombre, '-', rk.nombre), e.existencia, p.valorUnitario, null, null, null, null, 6, null, 1, {0}, null, null, null, r.descripcion from Existencia e inner join Producto p on e.idProducto = p.idProducto inner join Rack rk on e.idRack = rk.idRack INNER JOIN Bodega b on rk.idBodega = b.idBodega INNER JOIN Riesgo r on r.idRiesgo = p.idRiesgo", inventarioID), mysqlCon);
+                MySqlDataAdapter mySqlCmd = new MySqlDataAdapter(string.Format("INSERT INTO `conteos`(`DescripcionSAP`, `CodigoSAP`, `UnidadDeMedida`, `CodigoBodega`, `NombreBodega`, `ExistenciaSAP`, `CostoPromedio`, `ConteoFisico`, `CantidadDiferencia`, `CostoDiferencia`, `CostoDiferenciaAbsoluto`, `idEmpresa`, `idUsuario`, `idEstado`, `idInventario`, `FechaActualizacion`, `ObservacionesGerencia`, `ObservacionesContador`, `Riesgo`) Select p.descripcion, e.idProducto, p.unidadDeMedida, e.idBodega, b.nombre, e.existencia, p.valorUnitario, null, null, null, null, 6, null, 1, {0}, null, null, null, r.descripcion from Existencia e inner join Producto p on e.idProducto = p.idProducto inner join Bodega b on e.idBodega = b.idBodega INNER JOIN Riesgo r on r.idRiesgo = p.idRiesgo", inventarioID), mysqlCon);
                 DataTable inventario = new DataTable();
                 mySqlCmd.Fill(inventario);
                 return inventario;
@@ -568,7 +567,7 @@ namespace Dashboard_Inventarios
             using (MySqlConnection mysqlCon = new MySqlConnection(connectionString))
             {
                 mysqlCon.Open();
-                MySqlDataAdapter mySqlCmd = new MySqlDataAdapter(string.Format("SELECT * FROM {0} WHERE nombre = 'General'", Tabla_Categoria), mysqlCon);
+                MySqlDataAdapter mySqlCmd = new MySqlDataAdapter(string.Format("SELECT * FROM {0} WHERE idCategoria in (2, 4)", Tabla_Categoria), mysqlCon);
                 DataTable categoria = new DataTable();
                 mySqlCmd.Fill(categoria);
                 return categoria;
@@ -576,7 +575,7 @@ namespace Dashboard_Inventarios
         }
         //------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
         #endregion
-        #region Combobox Bodega Inventario Local
+        #region Combobox Bodega Invetario Local
         public DataTable llenarBodegaLocal()
         {
             using (MySqlConnection mysqlCon = new MySqlConnection(connectionString))
@@ -586,19 +585,6 @@ namespace Dashboard_Inventarios
                 DataTable bodega = new DataTable();
                 mySqlCmd.Fill(bodega);
                 return bodega;
-            }
-        }
-        #endregion
-        #region Combobox Rack Inventario Local
-        public DataTable llenarRackLocal()
-        {
-            using (MySqlConnection mysqlCon = new MySqlConnection(connectionString))
-            {
-                mysqlCon.Open();
-                MySqlDataAdapter mySqlCmd = new MySqlDataAdapter(string.Format("Select rk.idRack, concat(b.nombre, '-', rk.nombre) as nombre from rack rk inner join bodega b on rk.idBodega = b.idBodega"), mysqlCon);
-                DataTable rack = new DataTable();
-                mySqlCmd.Fill(rack);
-                return rack;
             }
         }
         #endregion
@@ -776,6 +762,7 @@ namespace Dashboard_Inventarios
         }
         //------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
         #endregion
+        
         #region Productos
         public DataTable Productos(string bodega, string patrono)
         {
@@ -789,15 +776,24 @@ namespace Dashboard_Inventarios
             }
             else if (patrono == "Proquima")
             {
-                SqlDataAdapter adapter = new SqlDataAdapter($"SELECT a.ItemName AS ' Descripcion ', a.ItemCode AS ' Codigo ', CONCAT( ISNULL(a.InvntryUom, ' N / A ') COLLATE SQL_Latin1_General_CP1_CI_AS, ' -- ', U_PresentaInv COLLATE SQL_Latin1_General_CP1_CI_AS ) AS 'Unidad De Medida', b.WhsCode AS 'Codigo de Bodega', c.WhsName AS 'Nombre De Bodega', b.OnHand AS 'Existencia', b.AvgPrice AS 'Costo Promedio', 'Proquima' AS 'idEmpresa', U_Riesgo AS 'Riesgo' FROM [" + ip + "].proquima.dbo.OITM a INNER JOIN [" + ip + "].proquima.dbo.OITW b ON a.ItemCode = b.ItemCode INNER JOIN [" + ip + "].proquima.dbo.OWHS c ON b.WhsCode = c.WhsCode WHERE b.OnHand > 0 AND b.WhsCode in ({bodega}) ORDER BY b.WhsCode", conexion);
+                SqlDataAdapter adapter = new SqlDataAdapter($"SELECT a.ItemName AS ' Descripcion ', a.ItemCode AS ' Codigo ', CONCAT( ISNULL(a.InvntryUom, ' N / A ') COLLATE SQL_Latin1_General_CP1_CI_AS, ' -- ', U_PresentaInv COLLATE SQL_Latin1_General_CP1_CI_AS ) AS 'Unidad De Medida', b.WhsCode AS 'Codigo de Bodega', c.WhsName AS 'Nombre De Bodega', b.OnHand AS 'Existencia', b.AvgPrice AS 'Costo Promedio', 'Proquima' AS 'idEmpresa', U_Riesgo AS 'Riesgo' FROM [" + ip + "].proquima.dbo.OITM a INNER JOIN [" + ip + "].proquima.dbo.OITW b ON a.ItemCode = b.ItemCode INNER JOIN [" + ip + $"].proquima.dbo.OWHS c ON b.WhsCode = c.WhsCode WHERE b.OnHand > 0 AND b.WhsCode in ({bodega}) ORDER BY b.WhsCode", conexion);
                 adapter.Fill(table);
             }
-            else
+            else if (patrono == "Ambas")
             {
-                SqlDataAdapter adapterU = new SqlDataAdapter($"SELECT a.ItemName AS ' Descripcion ', a.ItemCode AS ' Codigo ', CONCAT( ISNULL(a.InvntryUom, ' N / A ') COLLATE SQL_Latin1_General_CP1_CI_AS, ' -- ', U_PresentaInv COLLATE SQL_Latin1_General_CP1_CI_AS ) AS 'Unidad De Medida', b.WhsCode AS 'Codigo de Bodega', c.WhsName AS 'Nombre de Bodega', b.OnHand AS 'Existencia', b.AvgPrice AS 'Costo Promedio', 'Unhesa' AS 'idEmpresa', U_Riesgo AS 'Riesgo' FROM [" + ip + "].unhesa.dbo.OITM a INNER JOIN [" + ip + "].unhesa.dbo.OITW b ON a.ItemCode = b.ItemCode INNER JOIN [" + ip + "].unhesa.dbo.OWHS c ON b.WhsCode = c.WhsCode WHERE b.OnHand > 0 AND b.WhsCode in ({bodega}) ORDER BY b.WhsCode", conexion);
-                SqlDataAdapter adapterP = new SqlDataAdapter($"SELECT a.ItemName AS ' Descripcion ', a.ItemCode AS ' Codigo ', CONCAT( ISNULL(a.InvntryUom, ' N / A ') COLLATE SQL_Latin1_General_CP1_CI_AS, ' -- ', U_PresentaInv COLLATE SQL_Latin1_General_CP1_CI_AS ) AS 'Unidad De Medida', b.WhsCode AS 'Codigo de Bodega', c.WhsName AS 'Nombre De Bodega', b.OnHand AS 'Existencia', b.AvgPrice AS 'Costo Promedio', 'Proquima' AS 'idEmpresa', U_Riesgo AS 'Riesgo' FROM [" + ip + "].proquima.dbo.OITM a INNER JOIN [" + ip + "].proquima.dbo.OITW b ON a.ItemCode = b.ItemCode INNER JOIN [" + ip + "].proquima.dbo.OWHS c ON b.WhsCode = c.WhsCode WHERE b.OnHand > 0 AND b.WhsCode in ({bodega}) ORDER BY b.WhsCode", conexion);
+                SqlDataAdapter adapterU = new SqlDataAdapter($"SELECT a.ItemName AS ' Descripcion ', a.ItemCode AS ' Codigo ', CONCAT( ISNULL(a.InvntryUom, ' N / A ') COLLATE SQL_Latin1_General_CP1_CI_AS, ' -- ', U_PresentaInv COLLATE SQL_Latin1_General_CP1_CI_AS ) AS 'Unidad De Medida', b.WhsCode AS 'Codigo de Bodega', c.WhsName AS 'Nombre de Bodega', b.OnHand AS 'Existencia', b.AvgPrice AS 'Costo Promedio', 'Unhesa' AS 'idEmpresa', U_Riesgo AS 'Riesgo' FROM [" + ip + "].unhesa.dbo.OITM a INNER JOIN [" + ip + "].unhesa.dbo.OITW b ON a.ItemCode = b.ItemCode INNER JOIN [" + ip + $"].unhesa.dbo.OWHS c ON b.WhsCode = c.WhsCode WHERE b.OnHand > 0 AND b.WhsCode in ({bodega}) ORDER BY b.WhsCode", conexion);
+                SqlDataAdapter adapterP = new SqlDataAdapter($"SELECT a.ItemName AS ' Descripcion ', a.ItemCode AS ' Codigo ', CONCAT( ISNULL(a.InvntryUom, ' N / A ') COLLATE SQL_Latin1_General_CP1_CI_AS, ' -- ', U_PresentaInv COLLATE SQL_Latin1_General_CP1_CI_AS ) AS 'Unidad De Medida', b.WhsCode AS 'Codigo de Bodega', c.WhsName AS 'Nombre De Bodega', b.OnHand AS 'Existencia', b.AvgPrice AS 'Costo Promedio', 'Proquima' AS 'idEmpresa', U_Riesgo AS 'Riesgo' FROM [" + ip + "].proquima.dbo.OITM a INNER JOIN [" + ip + "].proquima.dbo.OITW b ON a.ItemCode = b.ItemCode INNER JOIN [" + ip + $"].proquima.dbo.OWHS c ON b.WhsCode = c.WhsCode WHERE b.OnHand > 0 AND b.WhsCode in ({bodega}) ORDER BY b.WhsCode", conexion);
                 adapterU.Fill(table);
                 adapterP.Fill(table);
+            }
+            else if(patrono == "test")
+            {
+                using (MySqlConnection connection = new MySqlConnection(connectionString))
+                {
+                    connection.Open();
+                    MySqlDataAdapter adapter = new MySqlDataAdapter($"SELECT p.idProducto AS 'ID', p.descripcion AS 'Descripcion', p.unidadDeMedida AS 'Medida', CONCAT(r.idBodega, ' - ', r.idRack) AS 'ID_Bodega', CONCAT(b.nombre, ' - ', r.nombre) AS 'Nombre_Bodega', e.existencia AS 'Existencia', p.valorUnitario AS 'Costo_Promedio', ri.descripcion AS 'Riesgo' FROM existencia e INNER JOIN producto p ON e.idProducto = p.`idProducto` INNER JOIN rack r ON e.idRack = r.idRack INNER JOIN bodega b ON r.idBodega = b.idBodega INNER JOIN riesgo ri ON p.idRiesgo = ri.idRiesgo WHERE r.idRack in ({bodega})", connection);
+                    adapter.Fill(table);
+                }
             }
             conexion.Close();
             return table;
@@ -887,6 +883,19 @@ namespace Dashboard_Inventarios
             }
         }
         #endregion
+        #region Ver Racks
+        public DataTable verRacks(string bodegas)
+        {
+            DataTable table = new DataTable();
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                connection.Open();
+                MySqlDataAdapter adapter = new MySqlDataAdapter($"SELECT r.idRack AS 'ID Rack', r.nombre AS 'Nombre Rack', r.idBodega AS 'ID Bodega', b.nombre AS 'Nombre Bodega' FROM `rack` r INNER JOIN bodega b ON r.`idBodega` = b.idBodega WHERE r.idBodega IN ({bodegas})", connection);
+                adapter.Fill(table);
+            }
+            return table;
+        }
+        #endregion
         #region Modificar configuración
         public void ActualizarConf(string ip, string usuario, string contrasena)
         {
@@ -899,7 +908,8 @@ namespace Dashboard_Inventarios
         }
         #endregion
 
-        //Categorias
+        //categorias
+
         #region ObtenerCategorias
         public DataTable ObtenerCategorias()
         {
@@ -926,6 +936,7 @@ namespace Dashboard_Inventarios
             }
         }
         #endregion
+
         #region VerificarCategoria
         public bool VerificarCategoria(string nombre)
         {
@@ -960,7 +971,7 @@ namespace Dashboard_Inventarios
         }
         #endregion
 
-        //Productos 
+        //productos 
         #region ObtenerProductos
         public DataTable ObtenerProductos()
         {
@@ -976,6 +987,7 @@ namespace Dashboard_Inventarios
             }
         }
         #endregion
+
         #region ObtenerRiesgos
         public DataTable ObtenerRiesgos()
         {
@@ -991,6 +1003,7 @@ namespace Dashboard_Inventarios
             }
         }
         #endregion
+
         #region Verificar Producto
         public string idCategoria;
         public string idRiesgo;
@@ -1046,6 +1059,7 @@ namespace Dashboard_Inventarios
             }
         }
         #endregion
+
         #region Editar Producto
         public void EditarProducto(string nombre, string unidad, string valor, string idCategoria, string idRiesgo, string id)
         {
@@ -1058,69 +1072,9 @@ namespace Dashboard_Inventarios
         }
         #endregion
 
-        //Racks
-        #region Obtener Racks
-        public DataTable ObtenerRacks(string idBodega)
-        {
-            //Llama la conexión y la abre para usar un procedimiento y mostrarla en el dgvInventarios
-            using (MySqlConnection mysqlCon = new MySqlConnection(connectionString))
-            {
-                mysqlCon.Open();
-
-                MySqlDataAdapter mySqlCmd = new MySqlDataAdapter(string.Format("Select idRack as ID, nombre as Nombre FROM Rack where idBodega = {0}", idBodega), mysqlCon);
-                DataTable TableInventario = new DataTable();
-                mySqlCmd.Fill(TableInventario);
-                return TableInventario;
-            }
-        }
-        #endregion
-        #region Verificar Rack
-        public bool VerificarRack(string nombre, string idBodega)
-        {
-
-            using (MySqlConnection mysqlCon = new MySqlConnection(connectionString))
-            {
-                mysqlCon.Open();
-                //
-                MySqlDataAdapter mySqlCmd = new MySqlDataAdapter(string.Format($"SELECT * FROM Rack WHERE nombre = '{nombre}' and idBodega = {idBodega}"), mysqlCon);
-                DataTable conf = new DataTable();
-                mySqlCmd.Fill(conf);
-                if (conf.Rows.Count > 0)
-                {
-                    return false;
-                }
-                else
-                {
-                    return true;
-                }
-
-            }
-        }
-        #endregion
-        #region Agregar Rack
-        public void AgregarRack(string nombre, string idBodega)
-        {
-            using (MySqlConnection connection = new MySqlConnection(connectionString))
-            {
-                connection.Open();
-                MySqlCommand command = new MySqlCommand($"INSERT INTO Rack(nombre, idBodega) VALUES( '{nombre}', {idBodega} )", connection);
-                command.ExecuteNonQuery();
-            }
-        }
-        #endregion
-        #region Editar Rack
-        public void EditarRack(string nombre, string idRack)
-        {
-            using (MySqlConnection connection = new MySqlConnection(connectionString))
-            {
-                connection.Open();
-                MySqlCommand command = new MySqlCommand($"UPDATE Rack set nombre = '{nombre}' where idRack = {idRack} ", connection);
-                command.ExecuteNonQuery();
-            }
-        }
-        #endregion
 
         //Bodegas
+
         #region Obtener Bodegas
         public DataTable ObtenerBodegas()
         {
@@ -1147,6 +1101,7 @@ namespace Dashboard_Inventarios
             }
         }
         #endregion
+
         #region VerificarBodega
         public bool VerificarBodega(string nombre)
         {
@@ -1183,6 +1138,7 @@ namespace Dashboard_Inventarios
         #endregion
 
         //Existencias
+
         #region Obtener Existencias
         public DataTable ObtenerExistencias()
         {
@@ -1198,6 +1154,7 @@ namespace Dashboard_Inventarios
             }
         }
         #endregion
+
         #region Verificar Existencia
         public bool VerificarExistencias(string idProducto, string idBodega)
         {
@@ -1221,6 +1178,7 @@ namespace Dashboard_Inventarios
             }
         }
         #endregion
+
         #region Insert Existencia
         public void InsertExistencia(string idProducto, string idBodega, string existencia)
         {
@@ -1232,6 +1190,7 @@ namespace Dashboard_Inventarios
             }
         }
         #endregion
+
         #region Verificar Existencia
         public string idProducto;
         public string idBodega;
@@ -1257,6 +1216,7 @@ namespace Dashboard_Inventarios
         }
 
         #endregion
+
         #region Editar Existencia
         public void EditarExistencia(string idProducto, string idBodega, string existencia, string id)
         {
@@ -1266,6 +1226,20 @@ namespace Dashboard_Inventarios
                 MySqlCommand command = new MySqlCommand($"UPDATE Existencia set idProducto = {idProducto}, idBodega = {idBodega},  existencia = {existencia}, fechaActualizacion = now() where idExistencia = {id}", connection);
                 command.ExecuteNonQuery();
             }
+        }
+        #endregion
+
+        #region Bodegas Locales
+        public DataTable bodegas_locales()
+        {
+            DataTable table = new DataTable();
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                connection.Open();
+                MySqlDataAdapter adapter = new MySqlDataAdapter($"SELECT idBodega as 'ID', CONCAT(idBodega, ' - ', nombre) as 'Nombre' FROM `bodega` WHERE 1", connection);
+                adapter.Fill(table);
+            }
+            return table;
         }
         #endregion
     }
