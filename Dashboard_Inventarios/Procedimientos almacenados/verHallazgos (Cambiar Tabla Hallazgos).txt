@@ -1,0 +1,2 @@
+CREATE PROCEDURE verHallazgos()
+SELECT `idHallazgo` AS "ID", Descripcion AS "Descripcion" FROM inventario_hallazgo // Cambiar Hallazgos //

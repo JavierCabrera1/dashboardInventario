@@ -1,0 +1,24 @@
+SELECT
+    idInventario AS "ID",
+    CodigoSAP AS "Codigo SAP",
+    DescripcionSAP AS "Descripcion SAP",
+    CodigoBodega AS "Codigo Bodega",
+    NombreBodega AS "Nombre Bodega",
+    UnidadDeMedida AS "Unidad de Medida",
+    ExistenciaSAP AS "Existencia SAP",
+    CostoPromedio "Costo Promedio",
+    ConteoFisico AS "Conteo Fisico",
+    CantidadDiferencia AS "Cantidad Diferencia",
+    CostoDiferencia AS "Costo Diferencia",
+    empresa.Nombre AS "Empresa",
+    usuario.User AS "Usuario",
+    estado.Nombre AS "Estado",
+    FechaActualizacion AS "Fecha Actualizacion",
+    CostoDiferenciaAbsoluto,
+    ObservacionesContador AS "Observaciones Contador",
+    ObservacionesGerencia AS "Observaciones Gerencia"
+FROM
+    inventario // Cambiar tabla a nueva tabla de etiquetas o inventarios //
+INNER JOIN empresa ON inventario// Cambiar tabla a nueva tabla de etiquetas o inventarios //.idEmpresa = empresa.idEmpresa
+INNER JOIN usuario ON inventario// Cambiar tabla a nueva tabla de etiquetas o inventarios //.idUsuario = usuario.idUsuario
+INNER JOIN estado ON inventario// Cambiar tabla a nueva tabla de etiquetas o inventarios //.idEstado = estado.idEstado
