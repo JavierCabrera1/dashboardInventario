@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe.config
 C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe
 C:\Users\hpalma\source\repos\Dashboard_Inventarios\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.pdb
@@ -340,10 +341,16 @@ C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Microsoft.ReportViewer.WinForms.xml
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\MySql.Data.xml
+=======
+>>>>>>> 402e5ee (version javier)
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.AssemblyReference.cache
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.exe.config
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Administracion.resources
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Agregar_Inventario.resources
+<<<<<<< HEAD
+=======
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Agregar_Rack.resources
+>>>>>>> 402e5ee (version javier)
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Aperturar_Inventario.resources
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Bodega.resources
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Bodegas.resources
@@ -362,20 +369,50 @@ C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Hallazgos.resources
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Interfaz.resources
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.InventariosLocales.resources
+<<<<<<< HEAD
+=======
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Inventario_Local.resources
+>>>>>>> 402e5ee (version javier)
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.IP.resources
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Login.resources
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.MenuLocal.resources
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.ObservacionesGerencia.resources
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Producto.resources
+<<<<<<< HEAD
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Properties.Resources.resources
+=======
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Racks.resources
+>>>>>>> 402e5ee (version javier)
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Seleccion.resources
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Seleccionar_Bodega.resources
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.ver_selectivos.resources
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.GenerateResource.cache
+<<<<<<< HEAD
+=======
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe.config
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.exe
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Dashboard_Inventarios.pdb
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\MySql.Data.dll
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Google.Protobuf.dll
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Zstandard.Net.dll
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\Renci.SshNet.dll
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\System.Memory.dll
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\System.Buffers.dll
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\bin\Debug\MySql.Data.xml
+C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Properties.Resources.resources
+>>>>>>> 402e5ee (version javier)
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.CoreCompileInputs.cache
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.CopyComplete
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.exe
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.pdb
+<<<<<<< HEAD
 C:\Users\User01\Documents\MEGA\Javier\Kinal\Practicas 2021\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Inventario_Local.resources
 C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.csproj.AssemblyReference.cache
 C:\Users\hpalma\Documents\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Administracion.resources
@@ -440,3 +477,5 @@ C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\D
 C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.exe
 C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.pdb
 C:\Users\hpalma\Documents\Trabajo Selectivo\Dashboard_Inventarios Versión 1.3\Dashboard_Inventarios\obj\Debug\Dashboard_Inventarios.Seleccionar_Rack.resources
+=======
+>>>>>>> 402e5ee (version javier)

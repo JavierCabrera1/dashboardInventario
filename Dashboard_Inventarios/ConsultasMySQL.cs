@@ -11,7 +11,7 @@ namespace Dashboard_Inventarios
     class ConsultasMySQL
     {
         //conexión a la base de datos phpMyAdmin
-        public string connectionString = @"Server=192.168.0.83;Database=dbinventarios;Uid=admin;Pwd=;port=3306;SslMode=none";
+        public string connectionString = @"Server=192.168.0.7;Database=dbinventarios;Uid=admin;Pwd=;port=3306;SslMode=none";
         private SqlConnection conexion = new SqlConnection("data source = 192.168.0.7; initial catalog = master; user id = sa; password = grueconsa");
 
         #region Varibales Globales
@@ -25,6 +25,7 @@ namespace Dashboard_Inventarios
         string Tabla_Hallazgos = "hallazgos";
         string Tabla_Categoria = "categoria";
         string Tabla_Bodega = "bodega";
+        string Tabla_Rack = "rack";
 
         //-----------------------------------------------------------------//
 
@@ -343,7 +344,7 @@ namespace Dashboard_Inventarios
             {
                 mysqlCon.Open();
 
-                MySqlDataAdapter mySqlCmd = new MySqlDataAdapter(string.Format("SELECT ROW_NUMBER() over (order by (select NULL)) as 'ID', p.descripcion AS 'Descripción', e.idProducto AS 'Codigo Producto', e.idBodega AS 'Codigo Bodega', b.nombre AS 'Nombre Bodega', p.unidadDeMedida AS 'Unidad de Medida', e.existencia AS 'Existencias', p.valorUnitario AS 'Costo Promedio', null AS 'Conteo Fisico', null AS 'Cantidad Diferencia', null AS 'Costo Diferencia', 'test' as 'Empresa', null AS 'Usuario', 1 AS 'Estado', null AS 'Fecha Actualización', null as 'Costo Diferencia Absoluto', null AS 'Observaciones Contador', null AS 'Observaciones Gerencia', r.descripcion AS 'Riesgo' FROM Existencia e INNER JOIN Producto p ON e.idProducto = p.idProducto INNER JOIN Bodega b ON e.idBodega = b.idBodega INNER JOIN Riesgo r ON r.idRiesgo = p.idRiesgo"), mysqlCon);
+                MySqlDataAdapter mySqlCmd = new MySqlDataAdapter(string.Format("SELECT ROW_NUMBER() over (order by (select NULL)) as 'ID', p.descripcion AS 'Descripción', e.idProducto AS 'Codigo Producto', concat(b.idBodega, '-', rk.idRack)  AS 'Codigo Bodega', concat(b.nombre, '-', rk.nombre) AS 'Nombre Bodega', p.unidadDeMedida AS 'Unidad de Medida', e.existencia AS 'Existencias', p.valorUnitario AS 'Costo Promedio', null AS 'Conteo Fisico', null AS 'Cantidad Diferencia', null AS 'Costo Diferencia', 'test' as 'Empresa', null AS 'Usuario', 1 AS 'Estado', null AS 'Fecha Actualización', null as 'Costo Diferencia Absoluto', null AS 'Observaciones Contador', null AS 'Observaciones Gerencia', r.descripcion AS 'Riesgo' FROM Existencia e INNER JOIN Producto p ON e.idProducto = p.idProducto INNER JOIN Rack rk ON e.idRack = rk.idRack INNER JOIN Riesgo r ON r.idRiesgo = p.idRiesgo INNER JOIN Bodega b ON rk.idBodega = b.idBodega"), mysqlCon);
                 DataTable TableInventario = new DataTable();
                 mySqlCmd.Fill(TableInventario);
                 return TableInventario;
@@ -380,7 +381,7 @@ namespace Dashboard_Inventarios
             using (MySqlConnection mysqlCon = new MySqlConnection(connectionString))
             {
                 mysqlCon.Open();
-                MySqlDataAdapter mySqlCmd = new MySqlDataAdapter(string.Format("INSERT INTO `conteos`(`DescripcionSAP`, `CodigoSAP`, `UnidadDeMedida`, `CodigoBodega`, `NombreBodega`, `ExistenciaSAP`, `CostoPromedio`, `ConteoFisico`, `CantidadDiferencia`, `CostoDiferencia`, `CostoDiferenciaAbsoluto`, `idEmpresa`, `idUsuario`, `idEstado`, `idInventario`, `FechaActualizacion`, `ObservacionesGerencia`, `ObservacionesContador`, `Riesgo`) Select p.descripcion, e.idProducto, p.unidadDeMedida, e.idBodega, b.nombre, e.existencia, p.valorUnitario, null, null, null, null, 6, null, 1, {0}, null, null, null, r.descripcion from Existencia e inner join Producto p on e.idProducto = p.idProducto inner join Bodega b on e.idBodega = b.idBodega INNER JOIN Riesgo r on r.idRiesgo = p.idRiesgo", inventarioID), mysqlCon);
+                MySqlDataAdapter mySqlCmd = new MySqlDataAdapter(string.Format("INSERT INTO `conteos`(`DescripcionSAP`, `CodigoSAP`, `UnidadDeMedida`, `CodigoBodega`, `NombreBodega`, `ExistenciaSAP`, `CostoPromedio`, `ConteoFisico`, `CantidadDiferencia`, `CostoDiferencia`, `CostoDiferenciaAbsoluto`, `idEmpresa`, `idUsuario`, `idEstado`, `idInventario`, `FechaActualizacion`, `ObservacionesGerencia`, `ObservacionesContador`, `Riesgo`) Select p.descripcion, e.idProducto, p.unidadDeMedida, concat(b.idBodega, '-', rk.idRack), concat(b.nombre, '-', rk.nombre), e.existencia, p.valorUnitario, null, null, null, null, 6, null, 1, {0}, null, null, null, r.descripcion from Existencia e inner join Producto p on e.idProducto = p.idProducto inner join Rack rk on e.idRack = rk.idRack INNER JOIN Bodega b on rk.idBodega = b.idBodega INNER JOIN Riesgo r on r.idRiesgo = p.idRiesgo", inventarioID), mysqlCon);
                 DataTable inventario = new DataTable();
                 mySqlCmd.Fill(inventario);
                 return inventario;
@@ -575,7 +576,7 @@ namespace Dashboard_Inventarios
         }
         //------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
         #endregion
-        #region Combobox Bodega Invetario Local
+        #region Combobox Bodega Inventario Local
         public DataTable llenarBodegaLocal()
         {
             using (MySqlConnection mysqlCon = new MySqlConnection(connectionString))
@@ -585,6 +586,19 @@ namespace Dashboard_Inventarios
                 DataTable bodega = new DataTable();
                 mySqlCmd.Fill(bodega);
                 return bodega;
+            }
+        }
+        #endregion
+        #region Combobox Rack Inventario Local
+        public DataTable llenarRackLocal()
+        {
+            using (MySqlConnection mysqlCon = new MySqlConnection(connectionString))
+            {
+                mysqlCon.Open();
+                MySqlDataAdapter mySqlCmd = new MySqlDataAdapter(string.Format("Select rk.idRack, concat(b.nombre, '-', rk.nombre) as nombre from rack rk inner join bodega b on rk.idBodega = b.idBodega"), mysqlCon);
+                DataTable rack = new DataTable();
+                mySqlCmd.Fill(rack);
+                return rack;
             }
         }
         #endregion
@@ -762,7 +776,6 @@ namespace Dashboard_Inventarios
         }
         //------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
         #endregion
-        
         #region Productos
         public DataTable Productos(string bodega, string patrono)
         {
@@ -908,8 +921,7 @@ namespace Dashboard_Inventarios
         }
         #endregion
 
-        //categorias
-
+        //Categorias
         #region ObtenerCategorias
         public DataTable ObtenerCategorias()
         {
@@ -936,7 +948,6 @@ namespace Dashboard_Inventarios
             }
         }
         #endregion
-
         #region VerificarCategoria
         public bool VerificarCategoria(string nombre)
         {
@@ -971,7 +982,7 @@ namespace Dashboard_Inventarios
         }
         #endregion
 
-        //productos 
+        //Productos 
         #region ObtenerProductos
         public DataTable ObtenerProductos()
         {
@@ -987,7 +998,6 @@ namespace Dashboard_Inventarios
             }
         }
         #endregion
-
         #region ObtenerRiesgos
         public DataTable ObtenerRiesgos()
         {
@@ -1003,7 +1013,6 @@ namespace Dashboard_Inventarios
             }
         }
         #endregion
-
         #region Verificar Producto
         public string idCategoria;
         public string idRiesgo;
@@ -1059,7 +1068,6 @@ namespace Dashboard_Inventarios
             }
         }
         #endregion
-
         #region Editar Producto
         public void EditarProducto(string nombre, string unidad, string valor, string idCategoria, string idRiesgo, string id)
         {
@@ -1072,9 +1080,69 @@ namespace Dashboard_Inventarios
         }
         #endregion
 
+        //Racks
+        #region Obtener Racks
+        public DataTable ObtenerRacks(string idBodega)
+        {
+            //Llama la conexión y la abre para usar un procedimiento y mostrarla en el dgvInventarios
+            using (MySqlConnection mysqlCon = new MySqlConnection(connectionString))
+            {
+                mysqlCon.Open();
+
+                MySqlDataAdapter mySqlCmd = new MySqlDataAdapter(string.Format("Select idRack as ID, nombre as Nombre FROM Rack where idBodega = {0}", idBodega), mysqlCon);
+                DataTable TableInventario = new DataTable();
+                mySqlCmd.Fill(TableInventario);
+                return TableInventario;
+            }
+        }
+        #endregion
+        #region Verificar Rack
+        public bool VerificarRack(string nombre, string idBodega)
+        {
+
+            using (MySqlConnection mysqlCon = new MySqlConnection(connectionString))
+            {
+                mysqlCon.Open();
+                //
+                MySqlDataAdapter mySqlCmd = new MySqlDataAdapter(string.Format($"SELECT * FROM Rack WHERE nombre = '{nombre}' and idBodega = {idBodega}"), mysqlCon);
+                DataTable conf = new DataTable();
+                mySqlCmd.Fill(conf);
+                if (conf.Rows.Count > 0)
+                {
+                    return false;
+                }
+                else
+                {
+                    return true;
+                }
+
+            }
+        }
+        #endregion
+        #region Agregar Rack
+        public void AgregarRack(string nombre, string idBodega)
+        {
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                connection.Open();
+                MySqlCommand command = new MySqlCommand($"INSERT INTO Rack(nombre, idBodega) VALUES( '{nombre}', {idBodega} )", connection);
+                command.ExecuteNonQuery();
+            }
+        }
+        #endregion
+        #region Editar Rack
+        public void EditarRack(string nombre, string idRack)
+        {
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                connection.Open();
+                MySqlCommand command = new MySqlCommand($"UPDATE Rack set nombre = '{nombre}' where idRack = {idRack} ", connection);
+                command.ExecuteNonQuery();
+            }
+        }
+        #endregion
 
         //Bodegas
-
         #region Obtener Bodegas
         public DataTable ObtenerBodegas()
         {
@@ -1101,7 +1169,6 @@ namespace Dashboard_Inventarios
             }
         }
         #endregion
-
         #region VerificarBodega
         public bool VerificarBodega(string nombre)
         {
@@ -1138,7 +1205,6 @@ namespace Dashboard_Inventarios
         #endregion
 
         //Existencias
-
         #region Obtener Existencias
         public DataTable ObtenerExistencias()
         {
@@ -1154,7 +1220,6 @@ namespace Dashboard_Inventarios
             }
         }
         #endregion
-
         #region Verificar Existencia
         public bool VerificarExistencias(string idProducto, string idBodega)
         {
@@ -1178,7 +1243,6 @@ namespace Dashboard_Inventarios
             }
         }
         #endregion
-
         #region Insert Existencia
         public void InsertExistencia(string idProducto, string idBodega, string existencia)
         {
@@ -1190,7 +1254,6 @@ namespace Dashboard_Inventarios
             }
         }
         #endregion
-
         #region Verificar Existencia
         public string idProducto;
         public string idBodega;
@@ -1216,7 +1279,6 @@ namespace Dashboard_Inventarios
         }
 
         #endregion
-
         #region Editar Existencia
         public void EditarExistencia(string idProducto, string idBodega, string existencia, string id)
         {

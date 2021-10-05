@@ -50,6 +50,68 @@
             this.chk.Text = "✓";
             this.chk.UseVisualStyleBackColor = true;
             this.chk.Click += new System.EventHandler(this.chk_Click);
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.rbAmbas = new System.Windows.Forms.RadioButton();
+            this.rbProquima = new System.Windows.Forms.RadioButton();
+            this.rbUnhesa = new System.Windows.Forms.RadioButton();
+            this.lbInventario = new System.Windows.Forms.Label();
+            this.dgvBodega = new System.Windows.Forms.DataGridView();
+            this.btnEnviar = new System.Windows.Forms.Button();
+            this.chk = new System.Windows.Forms.Button();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvBodega)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox1.Controls.Add(this.chk);
+            this.groupBox1.Controls.Add(this.rbAmbas);
+            this.groupBox1.Controls.Add(this.rbProquima);
+            this.groupBox1.Controls.Add(this.rbUnhesa);
+            this.groupBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(12, 65);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(804, 92);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Empresa";
+            // 
+            // rbAmbas
+            // 
+            this.rbAmbas.AutoSize = true;
+            this.rbAmbas.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbAmbas.Location = new System.Drawing.Point(358, 34);
+            this.rbAmbas.Name = "rbAmbas";
+            this.rbAmbas.Size = new System.Drawing.Size(73, 24);
+            this.rbAmbas.TabIndex = 11;
+            this.rbAmbas.TabStop = true;
+            this.rbAmbas.Text = "Ambas";
+            this.rbAmbas.UseVisualStyleBackColor = true;
+            // 
+            // rbProquima
+            // 
+            this.rbProquima.AutoSize = true;
+            this.rbProquima.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbProquima.Location = new System.Drawing.Point(486, 34);
+            this.rbProquima.Name = "rbProquima";
+            this.rbProquima.Size = new System.Drawing.Size(94, 24);
+            this.rbProquima.TabIndex = 10;
+            this.rbProquima.TabStop = true;
+            this.rbProquima.Text = "Proquima";
+            this.rbProquima.UseVisualStyleBackColor = true;
+            // 
+            // rbUnhesa
+            // 
+            this.rbUnhesa.AutoSize = true;
+            this.rbUnhesa.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbUnhesa.Location = new System.Drawing.Point(224, 34);
+            this.rbUnhesa.Name = "rbUnhesa";
+            this.rbUnhesa.Size = new System.Drawing.Size(78, 24);
+            this.rbUnhesa.TabIndex = 9;
+            this.rbUnhesa.TabStop = true;
+            this.rbUnhesa.Text = "Unhesa";
+            this.rbUnhesa.UseVisualStyleBackColor = true;
             // 
             // lbInventario
             // 
@@ -151,6 +213,15 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Empresa";
+            // chk
+            // 
+            this.chk.Location = new System.Drawing.Point(0, 69);
+            this.chk.Name = "chk";
+            this.chk.Size = new System.Drawing.Size(26, 23);
+            this.chk.TabIndex = 32;
+            this.chk.Text = "✓";
+            this.chk.UseVisualStyleBackColor = true;
+            this.chk.Click += new System.EventHandler(this.chk_Click);
             // 
             // Seleccionar_Bodega
             // 
@@ -179,6 +250,11 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.RadioButton rbAmbas;
+        private System.Windows.Forms.RadioButton rbProquima;
+        private System.Windows.Forms.RadioButton rbUnhesa;
         private System.Windows.Forms.Label lbInventario;
         private System.Windows.Forms.DataGridView dgvBodega;
         private System.Windows.Forms.Button btnEnviar;

@@ -351,8 +351,7 @@ namespace Dashboard_Inventarios
                 cmbBodega.DataSource = bodegaLocal;
                 cmbBodega.DisplayMember = "nombre";
                 cmbBodega.ValueMember = "idBodega";
-            } 
-            else
+            } else
             {
             cmbBodega.DataSource = new BindingSource(bodega, null);
             cmbBodega.DisplayMember = "Value";
@@ -391,6 +390,22 @@ namespace Dashboard_Inventarios
             cmbEmpresa.Visible = true;
             label10.Visible = true;
             btnAperturar.Visible = true;
+            foreach (Form frm in Application.OpenForms)
+            {
+                if (frm.GetType() == typeof(Inventario_Local))
+                {
+                    frm.Hide();
+                }
+            }
+            Inventario_Local inventario_Local = new Inventario_Local();
+            inventario_Local.user = nombre_usuario;
+            inventario_Local.aperturar = true;
+            inventario_Local.empresaApertura = "test";
+            inventario_Local.idInventario = "";
+            inventario_Local.idCategoria = idCategoria;
+            inventario_Local.nombre_del_inventario = txtInventario.Text;
+            inventario_Local.Show();
+            Close();
         }
         #endregion
     }

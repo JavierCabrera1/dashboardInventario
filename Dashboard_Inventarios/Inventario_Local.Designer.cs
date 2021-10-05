@@ -30,15 +30,15 @@ namespace Dashboard_Inventarios
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnAtras = new System.Windows.Forms.Button();
             this.lbUser = new System.Windows.Forms.Label();
             this.btnPausa = new System.Windows.Forms.Button();
@@ -47,6 +47,13 @@ namespace Dashboard_Inventarios
             this.lbFecha = new System.Windows.Forms.Label();
             this.panelFondo = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.lbPorcentajeDN = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.lbPorcentajeDP = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lbPorcentajeSD = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lbNoCountProquima = new System.Windows.Forms.Label();
             this.lbCountProquima = new System.Windows.Forms.Label();
@@ -55,16 +62,22 @@ namespace Dashboard_Inventarios
             this.chtProquima = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lbCantidadDN = new System.Windows.Forms.Label();
+            this.lbCantidadDP = new System.Windows.Forms.Label();
+            this.lbCantidadSD = new System.Windows.Forms.Label();
+            this.lbCantidadCD = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.chtDiferencias = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.cmbRack = new System.Windows.Forms.ComboBox();
             this.label12 = new System.Windows.Forms.Label();
             this.txtBuscarId = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.cmbEstado = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             this.cmbBodega = new System.Windows.Forms.ComboBox();
-            this.label9 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.cmbEmpresa = new System.Windows.Forms.ComboBox();
             this.dgvInventario = new System.Windows.Forms.DataGridView();
             this.lbInventario = new System.Windows.Forms.Label();
             this.btnFinalizar = new System.Windows.Forms.Button();
@@ -73,27 +86,14 @@ namespace Dashboard_Inventarios
             this.button2 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.chDiferencias = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.lbPorcentajeSD = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.lbPorcentajeDP = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.lbPorcentajeDN = new System.Windows.Forms.Label();
-            this.lbCantidadCD = new System.Windows.Forms.Label();
-            this.lbCantidadSD = new System.Windows.Forms.Label();
-            this.lbCantidadDP = new System.Windows.Forms.Label();
-            this.lbCantidadDN = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
             this.panelFondo.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chtProquima)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chtDiferencias)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvInventario)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chDiferencias)).BeginInit();
             this.SuspendLayout();
             // 
             // btnAtras
@@ -134,7 +134,7 @@ namespace Dashboard_Inventarios
             this.btnPausa.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnPausa.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPausa.ForeColor = System.Drawing.Color.White;
-            this.btnPausa.Location = new System.Drawing.Point(853, 4);
+            this.btnPausa.Location = new System.Drawing.Point(757, 4);
             this.btnPausa.Name = "btnPausa";
             this.btnPausa.Size = new System.Drawing.Size(82, 32);
             this.btnPausa.TabIndex = 22;
@@ -152,7 +152,7 @@ namespace Dashboard_Inventarios
             this.btnExcel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnExcel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExcel.ForeColor = System.Drawing.Color.White;
-            this.btnExcel.Location = new System.Drawing.Point(941, 7);
+            this.btnExcel.Location = new System.Drawing.Point(845, 7);
             this.btnExcel.Name = "btnExcel";
             this.btnExcel.Size = new System.Drawing.Size(29, 25);
             this.btnExcel.TabIndex = 20;
@@ -169,7 +169,7 @@ namespace Dashboard_Inventarios
             this.btnRefrescar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnRefrescar.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRefrescar.ForeColor = System.Drawing.Color.White;
-            this.btnRefrescar.Location = new System.Drawing.Point(976, 3);
+            this.btnRefrescar.Location = new System.Drawing.Point(880, 3);
             this.btnRefrescar.Name = "btnRefrescar";
             this.btnRefrescar.Size = new System.Drawing.Size(82, 32);
             this.btnRefrescar.TabIndex = 19;
@@ -184,7 +184,7 @@ namespace Dashboard_Inventarios
             this.lbFecha.BackColor = System.Drawing.Color.Transparent;
             this.lbFecha.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbFecha.ForeColor = System.Drawing.Color.White;
-            this.lbFecha.Location = new System.Drawing.Point(1064, 8);
+            this.lbFecha.Location = new System.Drawing.Point(968, 8);
             this.lbFecha.Name = "lbFecha";
             this.lbFecha.Size = new System.Drawing.Size(49, 20);
             this.lbFecha.TabIndex = 18;
@@ -222,6 +222,83 @@ namespace Dashboard_Inventarios
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(435, 128);
             this.panel3.TabIndex = 2;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.Transparent;
+            this.label20.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(3, 4);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(253, 25);
+            this.label20.TabIndex = 39;
+            this.label20.Text = "PORCENTAJE DIFERENCIAS";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Transparent;
+            this.label14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(308, 84);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(110, 21);
+            this.label14.TabIndex = 29;
+            this.label14.Text = "Dif. Negativa";
+            // 
+            // lbPorcentajeDN
+            // 
+            this.lbPorcentajeDN.AutoSize = true;
+            this.lbPorcentajeDN.BackColor = System.Drawing.Color.Transparent;
+            this.lbPorcentajeDN.Font = new System.Drawing.Font("Segoe UI Black", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbPorcentajeDN.Location = new System.Drawing.Point(318, 37);
+            this.lbPorcentajeDN.Name = "lbPorcentajeDN";
+            this.lbPorcentajeDN.Size = new System.Drawing.Size(91, 40);
+            this.lbPorcentajeDN.TabIndex = 28;
+            this.lbPorcentajeDN.Text = "100%";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(161, 85);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(101, 21);
+            this.label8.TabIndex = 27;
+            this.label8.Text = "Dif. Positiva";
+            // 
+            // lbPorcentajeDP
+            // 
+            this.lbPorcentajeDP.AutoSize = true;
+            this.lbPorcentajeDP.BackColor = System.Drawing.Color.Transparent;
+            this.lbPorcentajeDP.Font = new System.Drawing.Font("Segoe UI Black", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbPorcentajeDP.Location = new System.Drawing.Point(171, 37);
+            this.lbPorcentajeDP.Name = "lbPorcentajeDP";
+            this.lbPorcentajeDP.Size = new System.Drawing.Size(91, 40);
+            this.lbPorcentajeDP.TabIndex = 26;
+            this.lbPorcentajeDP.Text = "100%";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(19, 81);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(64, 21);
+            this.label3.TabIndex = 25;
+            this.label3.Text = "Sin Dif.";
+            // 
+            // lbPorcentajeSD
+            // 
+            this.lbPorcentajeSD.AutoSize = true;
+            this.lbPorcentajeSD.BackColor = System.Drawing.Color.Transparent;
+            this.lbPorcentajeSD.Font = new System.Drawing.Font("Segoe UI Black", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbPorcentajeSD.Location = new System.Drawing.Point(16, 37);
+            this.lbPorcentajeSD.Name = "lbPorcentajeSD";
+            this.lbPorcentajeSD.Size = new System.Drawing.Size(91, 40);
+            this.lbPorcentajeSD.TabIndex = 24;
+            this.lbPorcentajeSD.Text = "100%";
             // 
             // panel2
             // 
@@ -291,24 +368,24 @@ namespace Dashboard_Inventarios
             // chtProquima
             // 
             this.chtProquima.BackColor = System.Drawing.Color.Transparent;
-            chartArea1.AxisX.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
-            chartArea1.BackColor = System.Drawing.Color.Transparent;
-            chartArea1.Name = "ChartArea1";
-            this.chtProquima.ChartAreas.Add(chartArea1);
-            legend1.BackColor = System.Drawing.Color.Transparent;
-            legend1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            legend1.IsTextAutoFit = false;
-            legend1.Name = "Legend1";
-            this.chtProquima.Legends.Add(legend1);
+            chartArea3.AxisX.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
+            chartArea3.BackColor = System.Drawing.Color.Transparent;
+            chartArea3.Name = "ChartArea1";
+            this.chtProquima.ChartAreas.Add(chartArea3);
+            legend3.BackColor = System.Drawing.Color.Transparent;
+            legend3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            legend3.IsTextAutoFit = false;
+            legend3.Name = "Legend1";
+            this.chtProquima.Legends.Add(legend3);
             this.chtProquima.Location = new System.Drawing.Point(141, 3);
             this.chtProquima.Name = "chtProquima";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
-            series1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            series1.LabelForeColor = System.Drawing.Color.Empty;
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chtProquima.Series.Add(series1);
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
+            series3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            series3.LabelForeColor = System.Drawing.Color.Empty;
+            series3.Legend = "Legend1";
+            series3.Name = "Series1";
+            this.chtProquima.Series.Add(series3);
             this.chtProquima.Size = new System.Drawing.Size(193, 120);
             this.chtProquima.TabIndex = 21;
             this.chtProquima.Text = "chart2";
@@ -335,30 +412,137 @@ namespace Dashboard_Inventarios
             this.panel1.Controls.Add(this.lbCantidadSD);
             this.panel1.Controls.Add(this.lbCantidadCD);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.chDiferencias);
+            this.panel1.Controls.Add(this.chtDiferencias);
             this.panel1.Location = new System.Drawing.Point(439, 2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(402, 129);
             this.panel1.TabIndex = 0;
+            // 
+            // lbCantidadDN
+            // 
+            this.lbCantidadDN.AutoSize = true;
+            this.lbCantidadDN.BackColor = System.Drawing.Color.Transparent;
+            this.lbCantidadDN.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lbCantidadDN.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbCantidadDN.Location = new System.Drawing.Point(9, 100);
+            this.lbCantidadDN.Name = "lbCantidadDN";
+            this.lbCantidadDN.Size = new System.Drawing.Size(125, 17);
+            this.lbCantidadDN.TabIndex = 38;
+            this.lbCantidadDN.Text = "Dif. Negativa: 1000";
+            // 
+            // lbCantidadDP
+            // 
+            this.lbCantidadDP.AutoSize = true;
+            this.lbCantidadDP.BackColor = System.Drawing.Color.Transparent;
+            this.lbCantidadDP.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lbCantidadDP.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbCantidadDP.Location = new System.Drawing.Point(9, 81);
+            this.lbCantidadDP.Name = "lbCantidadDP";
+            this.lbCantidadDP.Size = new System.Drawing.Size(119, 17);
+            this.lbCantidadDP.TabIndex = 37;
+            this.lbCantidadDP.Text = "Dif. Positiva: 1000";
+            // 
+            // lbCantidadSD
+            // 
+            this.lbCantidadSD.AutoSize = true;
+            this.lbCantidadSD.BackColor = System.Drawing.Color.Transparent;
+            this.lbCantidadSD.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lbCantidadSD.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbCantidadSD.Location = new System.Drawing.Point(9, 60);
+            this.lbCantidadSD.Name = "lbCantidadSD";
+            this.lbCantidadSD.Size = new System.Drawing.Size(87, 17);
+            this.lbCantidadSD.TabIndex = 36;
+            this.lbCantidadSD.Text = "Sin Dif: 1000";
+            // 
+            // lbCantidadCD
+            // 
+            this.lbCantidadCD.AutoSize = true;
+            this.lbCantidadCD.BackColor = System.Drawing.Color.Transparent;
+            this.lbCantidadCD.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lbCantidadCD.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbCantidadCD.Location = new System.Drawing.Point(9, 39);
+            this.lbCantidadCD.Name = "lbCantidadCD";
+            this.lbCantidadCD.Size = new System.Drawing.Size(92, 17);
+            this.lbCantidadCD.TabIndex = 35;
+            this.lbCantidadCD.Text = "Con Dif: 1000";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(7, 4);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(131, 25);
+            this.label2.TabIndex = 35;
+            this.label2.Text = "DIFERENCIAS";
+            // 
+            // chtDiferencias
+            // 
+            this.chtDiferencias.BackColor = System.Drawing.Color.Transparent;
+            chartArea4.AxisX.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
+            chartArea4.BackColor = System.Drawing.Color.Transparent;
+            chartArea4.Name = "ChartArea1";
+            this.chtDiferencias.ChartAreas.Add(chartArea4);
+            legend4.BackColor = System.Drawing.Color.Transparent;
+            legend4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            legend4.IsTextAutoFit = false;
+            legend4.Name = "Legend1";
+            this.chtDiferencias.Legends.Add(legend4);
+            this.chtDiferencias.Location = new System.Drawing.Point(178, 3);
+            this.chtDiferencias.Name = "chtDiferencias";
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
+            series4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            series4.LabelForeColor = System.Drawing.Color.Empty;
+            series4.Legend = "Legend1";
+            series4.Name = "Series1";
+            this.chtDiferencias.Series.Add(series4);
+            this.chtDiferencias.Size = new System.Drawing.Size(193, 120);
+            this.chtDiferencias.TabIndex = 22;
+            this.chtDiferencias.Text = "chart2";
             // 
             // panel4
             // 
             this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel4.Controls.Add(this.label5);
+            this.panel4.Controls.Add(this.cmbRack);
             this.panel4.Controls.Add(this.label12);
             this.panel4.Controls.Add(this.txtBuscarId);
             this.panel4.Controls.Add(this.label11);
             this.panel4.Controls.Add(this.cmbEstado);
             this.panel4.Controls.Add(this.label10);
             this.panel4.Controls.Add(this.cmbBodega);
-            this.panel4.Controls.Add(this.label9);
             this.panel4.Controls.Add(this.label7);
-            this.panel4.Controls.Add(this.cmbEmpresa);
             this.panel4.Location = new System.Drawing.Point(15, 186);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1280, 75);
             this.panel4.TabIndex = 24;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(395, 15);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(46, 21);
+            this.label5.TabIndex = 34;
+            this.label5.Text = "Rack";
+            // 
+            // cmbRack
+            // 
+            this.cmbRack.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cmbRack.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cmbRack.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbRack.FormattingEnabled = true;
+            this.cmbRack.Location = new System.Drawing.Point(266, 39);
+            this.cmbRack.Name = "cmbRack";
+            this.cmbRack.Size = new System.Drawing.Size(304, 23);
+            this.cmbRack.TabIndex = 33;
+            this.cmbRack.TextChanged += new System.EventHandler(this.cmbRack_TextChanged);
             // 
             // label12
             // 
@@ -408,7 +592,7 @@ namespace Dashboard_Inventarios
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(715, 15);
+            this.label10.Location = new System.Drawing.Point(722, 15);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(68, 21);
             this.label10.TabIndex = 28;
@@ -420,22 +604,11 @@ namespace Dashboard_Inventarios
             this.cmbBodega.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.cmbBodega.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbBodega.FormattingEnabled = true;
-            this.cmbBodega.Location = new System.Drawing.Point(595, 39);
+            this.cmbBodega.Location = new System.Drawing.Point(601, 39);
             this.cmbBodega.Name = "cmbBodega";
             this.cmbBodega.Size = new System.Drawing.Size(304, 23);
             this.cmbBodega.TabIndex = 27;
             this.cmbBodega.TextChanged += new System.EventHandler(this.cmbBodega_TextChanged);
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(384, 15);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(75, 21);
-            this.label9.TabIndex = 26;
-            this.label9.Text = "Empresa";
             // 
             // label7
             // 
@@ -448,18 +621,6 @@ namespace Dashboard_Inventarios
             this.label7.TabIndex = 25;
             this.label7.Text = "Buscar Por:";
             // 
-            // cmbEmpresa
-            // 
-            this.cmbEmpresa.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cmbEmpresa.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmbEmpresa.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbEmpresa.FormattingEnabled = true;
-            this.cmbEmpresa.Location = new System.Drawing.Point(278, 39);
-            this.cmbEmpresa.Name = "cmbEmpresa";
-            this.cmbEmpresa.Size = new System.Drawing.Size(278, 23);
-            this.cmbEmpresa.TabIndex = 24;
-            this.cmbEmpresa.TextChanged += new System.EventHandler(this.cmbEmpresa_TextChanged);
-            // 
             // dgvInventario
             // 
             this.dgvInventario.AllowUserToAddRows = false;
@@ -470,35 +631,35 @@ namespace Dashboard_Inventarios
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvInventario.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvInventario.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvInventario.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvInventario.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvInventario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvInventario.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvInventario.DefaultCellStyle = dataGridViewCellStyle5;
             this.dgvInventario.EnableHeadersVisualStyles = false;
             this.dgvInventario.Location = new System.Drawing.Point(16, 267);
             this.dgvInventario.Name = "dgvInventario";
             this.dgvInventario.ReadOnly = true;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvInventario.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvInventario.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dgvInventario.RowHeadersVisible = false;
             this.dgvInventario.Size = new System.Drawing.Size(1279, 373);
             this.dgvInventario.TabIndex = 25;
@@ -609,167 +770,6 @@ namespace Dashboard_Inventarios
             // 
             this.timer1.Interval = 60000;
             // 
-            // chDiferencias
-            // 
-            this.chDiferencias.BackColor = System.Drawing.Color.Transparent;
-            chartArea2.AxisX.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
-            chartArea2.BackColor = System.Drawing.Color.Transparent;
-            chartArea2.Name = "ChartArea1";
-            this.chDiferencias.ChartAreas.Add(chartArea2);
-            legend2.BackColor = System.Drawing.Color.Transparent;
-            legend2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            legend2.IsTextAutoFit = false;
-            legend2.Name = "Legend1";
-            this.chDiferencias.Legends.Add(legend2);
-            this.chDiferencias.Location = new System.Drawing.Point(178, 3);
-            this.chDiferencias.Name = "chDiferencias";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
-            series2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            series2.LabelForeColor = System.Drawing.Color.Empty;
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.chDiferencias.Series.Add(series2);
-            this.chDiferencias.Size = new System.Drawing.Size(193, 120);
-            this.chDiferencias.TabIndex = 22;
-            this.chDiferencias.Text = "chart2";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(7, 4);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(131, 25);
-            this.label2.TabIndex = 35;
-            this.label2.Text = "DIFERENCIAS";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(19, 81);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 21);
-            this.label3.TabIndex = 25;
-            this.label3.Text = "Sin Dif.";
-            // 
-            // lbPorcentajeSD
-            // 
-            this.lbPorcentajeSD.AutoSize = true;
-            this.lbPorcentajeSD.BackColor = System.Drawing.Color.Transparent;
-            this.lbPorcentajeSD.Font = new System.Drawing.Font("Segoe UI Black", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbPorcentajeSD.Location = new System.Drawing.Point(16, 37);
-            this.lbPorcentajeSD.Name = "lbPorcentajeSD";
-            this.lbPorcentajeSD.Size = new System.Drawing.Size(91, 40);
-            this.lbPorcentajeSD.TabIndex = 24;
-            this.lbPorcentajeSD.Text = "100%";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(161, 85);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(101, 21);
-            this.label8.TabIndex = 27;
-            this.label8.Text = "Dif. Positiva";
-            // 
-            // lbPorcentajeDP
-            // 
-            this.lbPorcentajeDP.AutoSize = true;
-            this.lbPorcentajeDP.BackColor = System.Drawing.Color.Transparent;
-            this.lbPorcentajeDP.Font = new System.Drawing.Font("Segoe UI Black", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbPorcentajeDP.Location = new System.Drawing.Point(171, 37);
-            this.lbPorcentajeDP.Name = "lbPorcentajeDP";
-            this.lbPorcentajeDP.Size = new System.Drawing.Size(91, 40);
-            this.lbPorcentajeDP.TabIndex = 26;
-            this.lbPorcentajeDP.Text = "100%";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.Color.Transparent;
-            this.label14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(308, 84);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(110, 21);
-            this.label14.TabIndex = 29;
-            this.label14.Text = "Dif. Negativa";
-            // 
-            // lbPorcentajeDN
-            // 
-            this.lbPorcentajeDN.AutoSize = true;
-            this.lbPorcentajeDN.BackColor = System.Drawing.Color.Transparent;
-            this.lbPorcentajeDN.Font = new System.Drawing.Font("Segoe UI Black", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbPorcentajeDN.Location = new System.Drawing.Point(318, 37);
-            this.lbPorcentajeDN.Name = "lbPorcentajeDN";
-            this.lbPorcentajeDN.Size = new System.Drawing.Size(91, 40);
-            this.lbPorcentajeDN.TabIndex = 28;
-            this.lbPorcentajeDN.Text = "100%";
-            // 
-            // lbCantidadCD
-            // 
-            this.lbCantidadCD.AutoSize = true;
-            this.lbCantidadCD.BackColor = System.Drawing.Color.Transparent;
-            this.lbCantidadCD.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lbCantidadCD.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbCantidadCD.Location = new System.Drawing.Point(9, 39);
-            this.lbCantidadCD.Name = "lbCantidadCD";
-            this.lbCantidadCD.Size = new System.Drawing.Size(92, 17);
-            this.lbCantidadCD.TabIndex = 35;
-            this.lbCantidadCD.Text = "Con Dif: 1000";
-            // 
-            // lbCantidadSD
-            // 
-            this.lbCantidadSD.AutoSize = true;
-            this.lbCantidadSD.BackColor = System.Drawing.Color.Transparent;
-            this.lbCantidadSD.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lbCantidadSD.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbCantidadSD.Location = new System.Drawing.Point(9, 60);
-            this.lbCantidadSD.Name = "lbCantidadSD";
-            this.lbCantidadSD.Size = new System.Drawing.Size(87, 17);
-            this.lbCantidadSD.TabIndex = 36;
-            this.lbCantidadSD.Text = "Sin Dif: 1000";
-            // 
-            // lbCantidadDP
-            // 
-            this.lbCantidadDP.AutoSize = true;
-            this.lbCantidadDP.BackColor = System.Drawing.Color.Transparent;
-            this.lbCantidadDP.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lbCantidadDP.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbCantidadDP.Location = new System.Drawing.Point(9, 81);
-            this.lbCantidadDP.Name = "lbCantidadDP";
-            this.lbCantidadDP.Size = new System.Drawing.Size(119, 17);
-            this.lbCantidadDP.TabIndex = 37;
-            this.lbCantidadDP.Text = "Dif. Positiva: 1000";
-            // 
-            // lbCantidadDN
-            // 
-            this.lbCantidadDN.AutoSize = true;
-            this.lbCantidadDN.BackColor = System.Drawing.Color.Transparent;
-            this.lbCantidadDN.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lbCantidadDN.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbCantidadDN.Location = new System.Drawing.Point(9, 100);
-            this.lbCantidadDN.Name = "lbCantidadDN";
-            this.lbCantidadDN.Size = new System.Drawing.Size(125, 17);
-            this.lbCantidadDN.TabIndex = 38;
-            this.lbCantidadDN.Text = "Dif. Negativa: 1000";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.BackColor = System.Drawing.Color.Transparent;
-            this.label20.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(3, 4);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(253, 25);
-            this.label20.TabIndex = 39;
-            this.label20.Text = "PORCENTAJE DIFERENCIAS";
-            // 
             // Inventario_Local
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -807,10 +807,10 @@ namespace Dashboard_Inventarios
             ((System.ComponentModel.ISupportInitialize)(this.chtProquima)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chtDiferencias)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvInventario)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chDiferencias)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -841,9 +841,7 @@ namespace Dashboard_Inventarios
         private System.Windows.Forms.ComboBox cmbEstado;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.ComboBox cmbBodega;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox cmbEmpresa;
         private System.Windows.Forms.DataGridView dgvInventario;
         private System.Windows.Forms.Label lbInventario;
         private System.Windows.Forms.Button btnFinalizar;
@@ -852,7 +850,7 @@ namespace Dashboard_Inventarios
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chDiferencias;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chtDiferencias;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label lbPorcentajeDN;
         private System.Windows.Forms.Label label8;
@@ -865,5 +863,7 @@ namespace Dashboard_Inventarios
         private System.Windows.Forms.Label lbCantidadDP;
         private System.Windows.Forms.Label lbCantidadSD;
         private System.Windows.Forms.Label lbCantidadCD;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ComboBox cmbRack;
     }
 }
