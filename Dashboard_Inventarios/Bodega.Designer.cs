@@ -33,7 +33,6 @@ namespace Dashboard_Inventarios
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.rack_btn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button3
@@ -85,19 +84,6 @@ namespace Dashboard_Inventarios
             this.label1.TabIndex = 17;
             this.label1.Text = "Nombre de la Bodega:";
             // 
-            // rack_btn
-            // 
-            this.rack_btn.BackColor = System.Drawing.Color.Transparent;
-            this.rack_btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.rack_btn.Image = global::Dashboard_Inventarios.Properties.Resources.store;
-            this.rack_btn.Location = new System.Drawing.Point(329, 26);
-            this.rack_btn.Name = "rack_btn";
-            this.rack_btn.Size = new System.Drawing.Size(56, 49);
-            this.rack_btn.TabIndex = 21;
-            this.rack_btn.UseVisualStyleBackColor = false;
-            this.rack_btn.Visible = false;
-            this.rack_btn.Click += new System.EventHandler(this.rack_btn_Click);
-            // 
             // Bodega
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
@@ -105,7 +91,6 @@ namespace Dashboard_Inventarios
             this.BackgroundImage = global::Dashboard_Inventarios.Properties.Resources.fondo6;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(397, 313);
-            this.Controls.Add(this.rack_btn);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
@@ -128,6 +113,5 @@ namespace Dashboard_Inventarios
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button rack_btn;
     }
 }

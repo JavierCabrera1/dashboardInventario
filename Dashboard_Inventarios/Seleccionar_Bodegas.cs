@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,14 +13,12 @@ namespace Dashboard_Inventarios
     public partial class Seleccionar_Bodega : Form
     {
         #region Variables
-        ConsultasMySQL consultasMySQL = new ConsultasMySQL();
         public DataTable table;
         public string fecha;
         string prueba;
         public string inventario;
         public string nombre_usuario;
         public string ip;
-        public bool inventario_local;
         #endregion
         #region Load()
         public Seleccionar_Bodega()
@@ -31,29 +29,7 @@ namespace Dashboard_Inventarios
         private void Seleccionar_Bodega_Load(object sender, EventArgs e)
         {
             lbInventario.Text = inventario;
-            if (!inventario_local)
-            {
-                Bodega();
-            }
-            else
-            {
-                Bodega_local();
-            }
-        }
-        #endregion
-        #region Bodega local
-        public void Bodega_local()
-        {
-            groupBox1.Visible = false;
-            DataGridViewCheckBoxColumn CheckBoxColumn = new DataGridViewCheckBoxColumn();
-            CheckBoxColumn.HeaderText = "✓";
-            dgvBodega.Columns.Add(CheckBoxColumn);
-            DataTable bodegas_locales = consultasMySQL.bodegas_locales();
-            dgvBodega.DataSource = bodegas_locales;
-            dgvBodega.Columns[0].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            dgvBodega.Columns[0].Name = "Check";
-            dgvBodega.Columns[1].Visible = false;
-            dgvBodega.Columns[2].HeaderText = "Bodega";
+            Bodega();
         }
         #endregion
         #region ComboBox de Bodega Quemado En código
@@ -124,43 +100,26 @@ namespace Dashboard_Inventarios
                 MessageBox.Show("Seleccione una bodega como mínimo", "Seleccione", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
-            if (inventario_local)
+            Seleccion seleccion = new Seleccion();
+            if (rbUnhesa.Checked)
             {
-                Seleccionar_Rack seleccion = new Seleccionar_Rack();
-                seleccion.patrono = "test";
-                seleccion.bodegas = prueba;
-                seleccion.fecha = fecha;
-                seleccion.nombre_inventario = inventario;
-                seleccion.nombre_usuario = nombre_usuario;
-                seleccion.tabla = table;
-                seleccion.ip = ip;
-                seleccion.inventario_local = inventario_local;
-                seleccion.Show();
+                seleccion.patrono = "Unhesa";
             }
-            else
+            if (rbProquima.Checked)
             {
-                Seleccion seleccion = new Seleccion();
-                if (rbUnhesa.Checked)
-                {
-                    seleccion.patrono = "Unhesa";
-                }
-                if (rbProquima.Checked)
-                {
-                    seleccion.patrono = "Proquima";
-                }
-                if (rbAmbas.Checked)
-                {
-                    seleccion.patrono = "Ambas" ;
-                }
-                seleccion.bodegas = prueba;
-                seleccion.fecha = fecha;
-                seleccion.nombre_inventario = inventario;
-                seleccion.nombre_usuario = nombre_usuario;
-                seleccion.tabla = table;
-                seleccion.ip = ip;
-                seleccion.inventario_local = inventario_local;
-                seleccion.Show();
+                seleccion.patrono = "Proquima";
             }
+            if (rbAmbas.Checked)
+            {
+                seleccion.patrono = "Ambas" ;
+            }
+            seleccion.bodegas = prueba;
+            seleccion.fecha = fecha;
+            seleccion.nombre_inventario = inventario;
+            seleccion.nombre_usuario = nombre_usuario;
+            seleccion.tabla = table;
+            seleccion.ip = ip;
+            seleccion.Show();
             Close();
         } 
         #endregion

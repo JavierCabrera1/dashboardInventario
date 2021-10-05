@@ -31,7 +31,6 @@ namespace Dashboard_Inventarios
             {
                 textBox1.Text = nombre;
                 button3.Visible = true;
-                rack_btn.Visible = true;
             }
         }
 
@@ -65,13 +64,6 @@ namespace Dashboard_Inventarios
             {
                 MessageBox.Show("Ya existe una Bodega con ese nombre. Elija otro nombre.");
             }
-        }
-
-        private void rack_btn_Click(object sender, EventArgs e)
-        {
-            Racks racks = new Racks();
-            racks.idBodega = id;
-            racks.Show();
         }
     }
 }
