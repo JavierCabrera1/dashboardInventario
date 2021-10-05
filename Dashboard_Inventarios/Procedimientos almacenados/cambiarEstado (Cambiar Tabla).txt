@@ -1,0 +1,7 @@
+CREATE PROCEDURE cambiarEstado(
+	_idInventario INT, 
+	_idEstado INT
+)
+UPDATE `inventario` //Cambiar tabla mensualmente//
+SET idEstado //campo de la tabla// = _idEstado 
+WHERE idInventario //campo de la tabla// = _idInventario
