@@ -1,4 +1,0 @@
-CREATE PROCEDURE buscarIdEmpresa(
-	_nombre VARCHAR(255)
-)
-SELECT idEmpresa FROM empresa WHERE nombre = _nombre

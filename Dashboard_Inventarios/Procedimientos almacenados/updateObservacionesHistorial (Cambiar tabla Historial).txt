@@ -1,7 +1,0 @@
-CREATE PROCEDURE updateObservacionesHistorial(
-	_idInventario INT,
-	_ObservacionesGerencia VARCHAR(255)
-)
-UPDATE inventario_historial // Cambiar tabla a nueva tabla historial // 
-SET ObservacionesGerencia = _ObservacionesGerencia
-WHERE idInventarioHistorial = _idInventario

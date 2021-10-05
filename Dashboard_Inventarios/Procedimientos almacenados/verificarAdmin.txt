@@ -1,6 +1,0 @@
-CREATE PROCEDURE (
-	_userName VARCHAR(255)
-)
-SELECT idUsuario 
-FROM usuario 
-WHERE user = _userName
